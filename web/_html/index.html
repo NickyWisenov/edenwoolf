@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>EdenWoolf</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/all-pages.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <![endif]-->
+        <link href="css/full-slider.css" rel="stylesheet">
+    </head>
+    <!--/head-->
+    <body>
+        <header class="header">
+
+            <div class="nav-sec">
+                <div id="navigation" class="animated">
+                    <nav class="navbar navbar-custom" role="navigation">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="navbar-header">
+                                        <div class="site-logo">
+                                            <a href="index.html" class="brand"><img class="img-responsive" src="images/logo.png" alt=""/></a>                                                   
+                                        </div>
+
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                            <i class="fa fa-bars"></i>                                                
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-10">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="menu">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li class="active">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Join</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Log a job</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Search Carers</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">Search Families</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" onclick=" $('#signin_modal').modal('show');">Log-in</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                    <!-- /.Navbar-collapse -->
+                                </div>
+                            </div>
+                        </div> 
+                    </nav>
+                </div>    
+            </div>    
+        </header>
+
+        <div class="index-body">
+
+
+            <!-- *****************Banner-start****************** -->
+            <section class="banner-sec">
+                <video poster="images/banner_mn-1.jpg" id="bgvid" playsinline autoplay muted loop>
+                    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+                    <source src="images/final11.mp4" type="video/mp4">
+                    <source src="images/final11.webm" type="video/webm">
+                </video>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12">
+                            <h2 class="heading animated">We’ll give your family a hand</h2>
+                            <p>Affordable, flexible in-home care</p>
+
+                            <form class="header-job-search" action="search_listing.html">
+                                <div class="header-job-search-1 clearfix"> 
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2">
+                                            <div class="btn-group btn-group-justified" data-toggle="buttons">
+
+                                                <label class="btn active">
+                                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>Aged
+                                                </label>
+                                                <label class="btn">
+                                                    <input type="radio" name="options" id="option2" autocomplete="off">Disability
+                                                </label>
+                                                <label class="btn">
+                                                    <input type="radio" name="options" id="option3" autocomplete="off">Child
+                                                </label>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header-job-search-2 clearfix">  
+                                    <div class="row">
+
+                                        <div class="input-keyword col-sm-9 no-pad-both-2">
+                                            <input class="form-control" placeholder="Post code" type="text">
+                                        </div>
+                                        <div class="btn-search col-sm-3 no-pad-both-1">
+                                            <button class="btn btn-primary" type="submit">Search</button>
+                                        </div></div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ************************Banner-end**************** -->
+
+            <!-- *****************how-it-works-start****************** -->
+            <section class="how-it-wrk">
+                <div class="container">
+                    <div class="top-part-heading text-center">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <img src="images/how_it_heading_1.png" alt="" class="img-responsive heading animated">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btm-part clearfix">
+
+                        <div class="content-step-1" style="display: none;">
+                            <h1>
+                                Create a family profile 
+                            </h1>
+                            <div class="img-bx-1 fadeIn-1 animated">
+                                <img src="images/how_first_thum_3.png" alt="" class="img-responsive">
+                            </div>  
+                            <div class="img-bx-2 animated bounceInDown-1">
+                                <img src="images/how_first_thum_2.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+
+                        <div class="content-step-mdl" style="display: none;">
+                            <img src="images/howit_rose_1.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="content-step-2" style="display: none;">
+                            <h1>
+                                Find a carer 
+                            </h1>
+                            <div class="img-bx-1 fadeIn-1 animated">
+                                <img src="images/how_second_thum_3.png" alt="" class="img-responsive">
+                            </div>  
+                            <div class="img-bx-2 animated bounceInRight-1">
+                                <img src="images/how_second_thum_2.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+
+                        <div class="content-step-mdl-2" style="display: none;">
+                            <img src="images/2017-12-29.gif" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="content-step-3" style="display: none;">
+                            <h1>
+                                Send your favourite carers an in-mail,discussing your family’s needs
+                            </h1>
+                            <div class="img-bx-1 fadeIn-1 animated">
+                                <img src="images/how_third_thum_3.png" alt="" class="img-responsive">
+                            </div>  
+                        </div>
+
+                        <div class="content-step-4" style="display: none;">
+                            <h1>
+                                Once you have selected your preferred carer, Log a Job and deposit funds
+                            </h1>
+                            <div class="img-bx-1 fadeIn-1 animated">
+                                <img src="images/how_fourth_thum_3.png" alt="" class="img-responsive">
+                            </div>  
+                            <div class="img-bx-2">
+                                <img src="images/dog.gif" alt="" class="img-responsive">
+                            </div>
+                        </div>
+
+                        <div class="content-step-5" style="display: none;">
+                            <h1>
+                                Release funds when your carer has completed their work
+                            </h1>
+                            <div class="img-bx-1 fadeIn-1 animated">
+                                <img src="images/how_fifth_thum_3.png" alt="" class="img-responsive">
+                            </div>  
+                            <div class="img-bx-2">
+                                <img src="images/how_fifth_thum_2.png" alt="" class="img-responsive">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+            <!-- *****************how-it-works-end****************** -->
+
+
+            <!-- *****************Join-start****************** -->
+            <section class="height-imgt-sec">
+                <div class="container">
+                </div>
+            </section>
+            <!-- *****************Join-end****************** -->
+
+            <!-- *****************Join-start****************** -->
+            <section class="img-text-sec">
+                <div class="container">
+                    <div class="top-part-heading text-center">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <img src="images/join_heading_1.png" alt="" class="img-responsive heading animated">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btm-part row">
+                        <div class="col-md-6 col-sm-6 animated bounceInLeft">
+                            <div class="img-thum-smi">
+                                <a href="#">
+                                    <img src="images/frm-img-area-1.png" alt="" class="img-responsive">
+                                </a>
+                                <div class="btn-rap text-center">
+                                    <a href="registration-family.html" class="btn btn-all">Join as a family</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 animated bounceInLeft">
+                            <div class="img-thum-smi">
+                                <a href="#">
+                                    <img src="images/frm-img-area-2.png" alt="" class="img-responsive">
+                                </a>
+                                <div class="btn-rap text-center">
+                                    <a href="registration.html" class="btn btn-all">Join as a carer</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- *****************Join-end****************** -->
+        </div>
+
+
+        <!--/block-banner-box-->
+        <!--/footer-->
+        <footer>
+
+            <div class="foot-up text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div  class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="ftr-single-sec">
+                                            <h4 class="ftr-heading">Company</h4>
+                                            <ul class="foot-nav">
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Join</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Log-in</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Search Families</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Search Carers</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="ftr-single-sec">
+                                            <h4 class="ftr-heading">Browse by city</h4>
+                                            <ul class="foot-nav">
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Austin</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Austin</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Austin</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Austin Austin</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Austin Austin</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="ftr-single-sec">
+                                            <h4 class="ftr-heading">Popular topics</h4>
+                                            <ul class="foot-nav">
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Babysitter services  </a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Nany jobs</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Babysitter</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Nany jobs</a></li>
+                                                <li> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Nany jobs</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="ftr-single-sec">
+                                        <h4 class="ftr-heading">Contact</h4>
+                                        <div class="ftr-address">
+                                            <ul>
+                                                <li>Eden Woolf Pty Ltd Suite 2, Level 2</li> 
+                                                <li>16-18 Cross Street Double Bay, NSW 2028</li>
+                                                <li>Tel: +61 2 9300 2000 </li>
+                                                <li>Email: admin@edenwoolf.com</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>	
+                        </div></div>
+                </div>
+            </div>
+            <!--- ftr-btm-sec--->
+            <div class="foot-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div  class="copy-right">© Copyright Eden Woolf Pty Ltd 2018</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- ftr-btm-sec--->
+        </footer>
+        
+         <div class="modal fade cust-my-modal" id="signin_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Log In</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <form class="" id="user_login_form" action="user_dashboard.html">
+                                    <div class="form-group">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                            <input class="form-control" placeholder="Email Id *" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                                            <input class="form-control" placeholder="Password *" type="password">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                                <input id="checkbox1" type="checkbox">
+                                                <label for="checkbox1" class="cst-lbl-chk-2">
+                                                  Remember me
+                                                </label>
+                                            </div>
+
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-sign-btn">Login</button>
+                                    </div>
+                                    <div class="fotget-pass text-center">
+                                        <a class="cast-sign-link" href="javascript:void(0);" onclick="forgotPassword();">Forgot password ?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--/footer-->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <script src="js/main.js"></script>
+
+        <script src="js/jquery.nicescroll.js"></script>
+
+
+
+
+
+        <script>
+
+            var vid = document.getElementById("bgvid");
+            //var pauseButton = document.querySelector("#polina button");
+
+            if (window.matchMedia('(prefers-reduced-motion)').matches) {
+                vid.removeAttribute("autoplay");
+                vid.pause();
+               // pauseButton.innerHTML = "Paused";
+            }
+
+
+
+            vid.addEventListener('ended', function ()
+            {
+// only functional if "loop" is removed 
+                vid.pause();
+// to capture IE10
+                vidFade();
+            });
+
+
+//            pauseButton.addEventListener("click", function () {
+//                vid.classList.toggle("stopfade");
+//                if (vid.paused) {
+//                    vid.play();
+//                    pauseButton.innerHTML = "Pause";
+//                } else {
+//                    vid.pause();
+//                    pauseButton.innerHTML = "Paused";
+//                }
+//            })
+            $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+            $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+
+            function toggleIcon(e) {
+                $(e.target)
+                        .prev('.panel-heading')
+                        .find(".more-less")
+                        .toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
+            }
+
+            function vidFade() {
+                vid.classList.add("stopfade");
+
+            }
+
+        </script>
+
+        <script>
+
+        </script>
+
+    </body>
+</html>

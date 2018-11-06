@@ -1,0 +1,7466 @@
+
+
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 274px 0 274px;
+    }
+}
+
+
+@media (min-width: 1300px){
+
+}
+@media (max-width: 1299px){
+
+
+}
+
+@media only screen and (min-width: 960px) and (max-width:1069px) {
+    .header .navbar-custom ul.nav li a {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    .content-step-1 {
+        padding-top: 60px;
+        display: inline-block;
+        height: 305px;
+        width: 40%;
+        position: relative;
+    }
+    .content-step-2 {
+
+        display: inline-block;
+        height: 315px;
+        width: 33%;
+        position: relative;
+    }
+    .content-step-3 {
+
+        display: inline-block;
+        height: 261px;
+        width: 48%;
+        position: relative;
+    }
+    .content-step-4 {
+        display: inline-block;
+        height: 334px;
+        width: 40%;
+        top: 85px;
+        position: relative;
+    }
+    .content-step-5 {
+        height: 344px;
+        width: 36%;
+        right: -21%;
+        top: 100px;
+        position: relative;
+    }
+    .content-step-1 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 25px;
+        padding: 0px 91px;
+
+    }
+    .content-step-2 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 25px;
+        padding: 0px 70px;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -40px;
+    }
+    .content-step-3 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 25px;
+        padding: 0px 117px;
+    }
+    .content-step-3 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 25px;
+        padding: 0px 117px;
+    }
+    .content-step-5 h1 {
+        left: -21px;
+        right: 0;
+        transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 25px;
+        padding: 0px 85px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: -20px;
+        top: -1px;
+    }
+    .content-step-4 h1 {
+        transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 25px;
+        padding: 0px 90px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: -17px;
+        bottom: -71px;
+    }
+
+
+
+
+    .how-it-wrk {
+        min-height: 1400px;
+    }
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 100px 0 156px;
+    }
+
+    .share-top-3 .content-step-1 {
+        padding-top: 60px;
+        display: inline-block;
+        height: 305px;
+        width: 40%;
+        position: relative;
+    }
+    .share-top-3 .content-step-2 {
+        display: inline-block;
+        height: 261px;
+        width: 48%;
+        position: relative;
+    }
+    .share-top-3 .content-step-1 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+    }
+    .share-top-3 .content-step-2 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+    }
+    .share-top-3 .content-step-3{
+        display: inline-block;
+        height: 261px;
+        width: 48%;
+        position: relative;
+    }
+    .share-top-3 .content-step-3 h1{
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+    }
+
+    /*    
+          .share-top-2 .content-step-1 {
+            padding-top: 60px;
+            display: inline-block;
+            height: 305px;
+            width: 40%;
+            position: relative;
+        }
+        .share-top-2 .content-step-2 {
+    
+            display: inline-block;
+            height: 315px;
+            width: 33%;
+            position: relative;
+        }
+        .share-top-2 .content-step-3 {
+    
+            display: inline-block;
+            height: 261px;
+            width: 48%;
+            position: relative;
+        }
+        .share-top-2 .content-step-4 {
+            display: inline-block;
+            height: 334px;
+            width: 40%;
+            top: 85px;
+            position: relative;
+        }
+        .share-top-2 .content-step-5 {
+            height: 344px;
+            width: 36%;
+            right: -21%;
+            top: 100px;
+            position: relative;
+        }
+        .share-top-2 .content-step-1 h1 {
+            bottom: 42%;
+            font-size: 25px;
+            padding: 0px 91px;
+    
+        }
+        .share-top-2 .content-step-2 h1 {
+            bottom: 40%;
+            font-size: 25px;
+            padding: 0px 70px;
+        }
+        .share-top-2 .content-step-2 .img-bx-2 {
+            position: absolute;
+            right: 70px;
+            bottom: -40px;
+        }
+       .share-top-2 .content-step-3 h1 {
+            bottom: 22%;
+            font-size: 25px;
+            padding: 0px 117px;
+        }
+       .share-top-2 .content-step-3 h1 {
+            bottom: 22%;
+            font-size: 25px;
+            padding: 0px 117px;
+        }
+        .share-top-2 .content-step-5 h1 {
+            left: -21px;
+            right: 0;
+            bottom: 32%;
+            font-size: 25px;
+            padding: 0px 85px;
+        }
+        .share-top-2 .content-step-5 .img-bx-2 {
+            position: absolute;
+            right: -20px;
+            top: -1px;
+        }
+       .share-top-2 .content-step-4 h1 {
+            bottom: 31%;
+            font-size: 25px;
+            padding: 0px 90px;
+            color: #253848;
+            font-family: 'Raleway', sans-serif;
+        }
+        .share-top-2 .content-step-4 .img-bx-2 {
+            position: absolute;
+            left: -17px;
+            bottom: -71px;
+        }
+    */
+
+
+
+
+    .share-top-2 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 35px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 297px;
+        width: 40%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 3px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 75px;
+    }
+    .share-top-2 .content-step-mdl {
+        width: 23%;
+        display: inline-block;
+        position: relative;
+        top: -30px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-2 {
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 310px;
+        width: 57%;
+        right: -35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 14px;
+        padding: 0px 90px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .share-top-2 .content-step-3 {
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 280px;
+        width: 50%;
+        top: 35px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 90px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 21px;
+        bottom: -233px;
+        width: 12%;
+        height: 123px;
+        z-index: 1;
+        display: none;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 35px;
+        left: 90px; 
+        text-align: center;
+        margin: 0 auto;
+        top: -18px;
+    }
+    .share-top-2 .content-step-1:after {
+        top: -72px;
+        background: url(../images/how_it_arrow_1.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -20%;
+        width: 40%;
+        height: 50px;
+        z-index: 1;
+        display:none;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 365px;
+        width: 44%;
+        top: 20px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 55px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .share-top-2 .content-step-5 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 0px;
+        display: inline-block;
+        height: 360px;
+        width: 38%;
+        right: -18%;
+        top: 20px;
+        position: relative;
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 45px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 85px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 72px;
+        bottom: -135px;
+        width: 38%;
+        height: 130px;
+        display: none;
+        z-index: 1;
+    }
+    .share-top-2 .content-step-4:after {
+        top: 197px;
+        background: url(../images/how_it_arrow_4.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -45%;
+        width: 46%;
+        height: 50px;
+        z-index: 1;
+        display: none;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -4px;
+        top: 5px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width:80px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        top: -40px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 img{
+        width: 80px;
+        margin: 0 auto;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 7px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:80px;
+    }
+    .share-top-2 .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 0%;
+        top: 27px;
+    }
+    .share-top-2 .content-step-5 .img-bx-1 img{
+        width:80px;
+    }
+    .share-top-2.content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 14px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width:100px;
+    }
+    .share-top-2 {
+        min-height: 1050px;
+    }
+    .about_top_menu ul li h1 {
+        font-size: 15px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 {
+        min-height: 950px;
+    }
+    .header-job-search .btn-search .btn-primary {
+        background-color: #518172;
+        border-color: #518172 !important;
+        font-size: 15px;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+    }
+    .cst-frm-control-8 {
+        width: 90px;
+
+    }
+    .cst-frm-control-9 {
+        width: 90px;
+    }
+
+    /****** career details page *********/
+
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1{padding:10px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1.carers-list-box .blog-list-box-left img {
+        width: 100%;
+        min-height: auto;
+        max-height: initial;
+    }
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right h1{font-size: 18px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .show-review ul li span{font-size: 14px; margin-left: 5px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right h2{font-size: 15px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right span{font-size: 14px;}
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btn{font-size: 11px; padding:8px 10px;}
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btn.log-job-btn{font-size:11px;}
+    .career-details .panel-body-main .right-part .job-list-grp .career-info-sec{padding: 10px;}
+    .career-details .panel-body-main .col-md-3.col-sm-4.padding-lt-rt{padding-right: 0;}
+    .career-details .panel-body-main .career-right-part .availability .table {
+        margin-top: 9px;
+        margin-bottom: 0;
+        zoom: 80%;
+    }
+    .career-details .panel-body-main .career-right-part .availability .table tbody tr td{font-weight: 600; font-size: 14px;}
+    .career-details .panel-body-main .career-right-part .reviews-right .reviews-short-dtls .no-padding{padding: 0 5px 0 0;}
+    .career-details .panel-body-main .career-right-part .reviews-right .scroll-div{height:286px;}
+
+    /****** end of career details page *********/
+
+    .header-job-search-2 .new-btn-wrp ul li a {
+        padding: 10px 20px;
+    }
+    .header-job-search {
+        margin-top: 15px;
+        overflow: hidden;
+        border-radius: 0px;
+    }
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 150px 0 115px;
+    }
+    .carer-search-1 .api-menu .panel-heading .panel-title {
+        font-size: 13px;
+    }
+    .carer-search-1 .panel-body-main .left-part .bottom-part .top-hd {
+        font-size: 17px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blbt-btn a.style-btn{
+        padding: 10px 0px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blbt-btn a.style-btn span {
+        font-size: 11px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-mid-box ul li {
+        margin-bottom: 15px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-mid-box ul li:last-child {
+        padding-right: 0px;
+        margin-bottom: 0;
+    }
+    .bottom-ul {
+        padding: 20px 0px 20px 0px;
+    }
+    .name-dg-grp {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .prof-right-part .right-prt {
+        padding-left: 5px;
+    }
+    .bottom-ul .nw-list {
+        margin-bottom: 23px;
+    }
+    .prof-body .career-details {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .about_top_menu {
+        padding-bottom: 35px;
+    }
+
+    /********************header-start**********************/
+    .header .navbar-custom ul.nav li {
+        padding: 0;
+        margin: 0px 0px;
+    }
+    .header .navbar-custom ul.nav li a {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    /********************header-end**********************/
+    /********************index-start**********************/
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 80px 0 80px;
+    }
+
+    .banner-sec h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+
+    .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 35px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 235px;
+        width: 40%;
+        position: relative;
+    }
+    .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 3px;
+    }
+    .content-step-1 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-1 h1 {
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 75px;
+    }
+    .content-step-mdl {
+        width: 23%;
+        display: inline-block;
+        position: relative;
+        top: -30px;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        bottom: -13px;
+    }
+    .content-step-2 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 254px;
+        width: 34%;
+        position: relative;
+    }
+    .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 240px;
+        width: 57%;
+        position: relative;
+    }
+
+    .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 111px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 21px;
+        bottom: -200px;
+        width: 30%;
+        height: 143px;
+        z-index: 1;
+    }
+    .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 35px;
+        /* left: 90px; */
+        text-align: center;
+        margin: 0 auto;
+        top: -18px;
+    }
+    .content-step-1:after {
+        top: -72px;
+        background: url(../images/how_it_arrow_1.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -57%;
+        width: 56%;
+        height: 50px;
+        z-index: 1;
+    }
+    .content-step-1 .img-bx-1 img{
+        width: 80px;
+    }
+    .content-step-4 {
+        background-color: #fff;
+        background: url(../images/how_fourth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 279px;
+        width: 44%;
+        top: 20px;
+        position: relative;
+    }
+
+    .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 55px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 0px;
+        display: inline-block;
+        height: 279px;
+        width: 38%;
+        right: -18%;
+        top: 20px;
+        position: relative;
+    }
+    .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 70px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 85px;
+    }
+    .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 72px;
+        bottom: -135px;
+        width: 38%;
+        height: 130px;
+        z-index: 1;
+    }
+    .content-step-4:after {
+        top: 197px;
+        background: url(../images/how_it_arrow_4.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -45%;
+        width: 46%;
+        height: 50px;
+        z-index: 1;
+    }
+    .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -4px;
+        top: 5px;
+    }
+    .content-step-2 .img-bx-1 img{
+        width:80px;
+    }
+    .content-step-3 .img-bx-1 {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        top: -40px;
+    }
+    .content-step-3 .img-bx-1 img{
+        width:80px;
+    }
+    .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 7px;
+        top: 0px;
+    }
+    .content-step-4 .img-bx-1 img{
+        width:80px;
+    }
+    .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 0%;
+        top: 27px;
+    }
+    .content-step-5 .img-bx-1 img{
+        width:80px;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 14px;
+        bottom: 0px;
+    }
+    .content-step-4 .img-bx-2 img{
+        width:100px;
+    }
+    .how-it-wrk {
+        padding-bottom: 15px;
+        padding-top: 60px;
+        position: relative;
+        min-height: 940px;
+    }
+    .how-it-wrk .top-part-heading img {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    /********************index-end**********************/
+
+    /********************footer-start**********************/
+    .footer .ftr-single-sec .ftr-address ul li {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-right: 30px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+    .footer .ftr-single-sec .ftr-address ul li:nth-child(2) {
+        margin-right: 0px;
+    }
+    .footer .ftr-single-sec .ftr-address {
+        text-align: center;
+    }
+    .cst-tbl-1{
+        text-align: center !important;
+    }
+    .footer .ftr-single-sec .cst-tbl-1:after {
+        top: 33px;
+        background-repeat-x: repeat;
+        background-repeat-y: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 52px;
+        right: 0;
+        height: 3px;
+        background-color: #51606d;
+        z-index: 1;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /********************footer-end**********************/
+
+    .panel-body-main form .btn {
+        margin-bottom: 10px;
+    }
+    .panel-body-main-top-1:before {
+        background: url(../images/registrtion_smal-img-1.png);
+        background-repeat: no-repeat;
+        content: "";
+        position: absolute;
+        left: -34px;
+        top: -49px;
+        width: 180px;
+        height: 170px;
+        z-index: 5;
+    }
+
+    /********************dashboard-start**********************/
+    .dash-main-body .panel-body-main .right-part .top-part .top-part-box h1 {
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif !important;
+        color: #7c858d;
+    }
+    .padding-lft-10{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-left img {
+        min-height: 145px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btm-feature-grp li ul li {
+        margin-left: 0px;
+        margin: 10px 0px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp li {
+        width: 100%;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp li:first-child {
+        padding-left: 0px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btm-feature-grp li ul li:last-child {
+        margin-left: 0px;
+        margin-top: 0;
+    }
+
+
+    /********************dashboard-start**********************/
+
+    .header .navbar-custom ul.nav li a {
+        font-size: 14px;
+        padding: 5px 3px;
+    }
+    /*    .header .navbar-custom ul.nav li h1 {
+            color: #253848;
+            font-family: 'Roboto', sans-serif;
+            display: inline;
+            font-size: 14px;
+            font-weight: 500;
+        }*/
+    .header .navbar-custom ul.nav li h1 {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        display: inline;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .share-top-3 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 35px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 235px;
+        width: 40%;
+        position: relative;
+    }
+    .share-top-3 .content-step-2 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 240px;
+        width: 57%;
+        right: -35px;
+        position: relative;
+    }
+    .share-top-3 .content-step-1 h1 {
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;   
+        padding: 0px 75px;
+    }
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 21px;
+        bottom: -200px;
+        width: 30%;
+        height: 143px;
+        z-index: 1;
+    }
+    .share-top-3 .content-step-2 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+    }
+    .share-top-3 .content-step-3 {
+        display: inline-block;
+        height: 230px;
+        width: 56%;
+        position: relative;
+        top: 100px;
+    }
+    .share-top-3 .content-step-3 h1{
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+    }
+    .share-top-3 .content-step-1:after {
+        top: -72px;
+        background: url(../images/how_it_arrow_1.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -34%;
+        width: 56%;
+        height: 50px;
+        z-index: 1;
+    }
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 21px;
+        bottom: -200px;
+        width: 19%;
+        height: 143px;
+        z-index: 1;
+    }
+    .share-top-3 {
+        min-height: 900px;
+    }
+    .about_top_menu ul li h1 {
+        font-size: 12px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .share-top-2 .content-step-1 {
+
+        background-size: cover;
+        padding-bottom: 35px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 235px;
+        width: 40%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 3px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 21px;
+        padding: 0px 75px;
+    }
+    .share-top-2 .content-step-mdl {
+        width: 23%;
+        display: inline-block;
+        position: relative;
+        top: -30px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-2 {
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 240px;
+        width: 57%;
+        right: -35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 14px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .share-top-2 .content-step-3 {
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 240px;
+        width: 57%;
+        top: 35px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 90px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 21px;
+        bottom: -200px;
+        width: 19%;
+        height: 143px;
+        z-index: 1;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 35px;
+        /* left: 90px; */
+        text-align: center;
+        margin: 0 auto;
+        top: -18px;
+    }
+    .share-top-2 .content-step-1:after {
+        top: -72px;
+        background: url(../images/how_it_arrow_1.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -57%;
+        width: 56%;
+        height: 50px;
+        z-index: 1;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-4 {
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 279px;
+        width: 44%;
+        top: 20px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 55px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .share-top-2 .content-step-5 {
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 0px;
+        display: inline-block;
+        height: 279px;
+        width: 38%;
+        right: -18%;
+        top: 20px;
+        position: relative;
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 45px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 85px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 72px;
+        bottom: -135px;
+        width: 38%;
+        height: 130px;
+        z-index: 1;
+    }
+    .share-top-2 .content-step-4:after {
+        top: 197px;
+        background: url(../images/how_it_arrow_4.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -45%;
+        width: 46%;
+        height: 50px;
+        z-index: 1;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -4px;
+        top: 5px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width:80px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        top: -40px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 img{
+        width: 80px;
+        margin: 0 auto;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 7px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:80px;
+    }
+    .share-top-2 .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 0%;
+        top: 27px;
+    }
+    .share-top-2 .content-step-5 .img-bx-1 img{
+        width:80px;
+    }
+    .share-top-2.content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 14px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width:100px;
+    }
+    .share-top-2 {
+        min-height: 1050px;
+    }
+
+    .child-care-top-4 {
+        background: url(../images/child-img-2-1.jpg) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        background-attachment: fixed;
+        padding: 206px 0px;
+        position: relative;
+        background-position-x: 50%;
+    }
+    .aged-care .aged-care-top-2 {
+        background: url(../images/child-img-4-1.jpg) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        background-attachment: fixed;
+        padding: 230px 0px;
+        position: relative;
+        background-position-x: 85%;
+    }
+    .disabilty-care-top-2 {
+        background: url(../images/child-img-3-1.jpg) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        background-attachment: fixed;
+        padding: 230px 0px;
+        position: relative;
+        background-position-x: 50%;
+    }
+    .share-top-3 .content-step-3 .img-bx-1 {
+        position: absolute;
+        right: 0px;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        top: -62px;
+    }
+
+    /*************9_3_18-start***************/
+    .carer-edit-prof-main {
+        padding: 0px 0px;
+    }
+    .cst-frm-control-9 {
+        width: 80px;
+    }
+    .cst-frm-control-8 {
+        width: 80px;
+    }
+    .carer-edit-prof-main .tab-area .nav-tabs > li > a {
+        padding: 10px 15px 10px 15px;
+    }
+    .carer-edit-prof-main .tab-area .nav-tabs > li > a {
+        font-size: 12px;
+    }
+    .panel-body-main form .btn-2 {
+        font-size: 15px;
+        background-color: #253848;
+        color: #fff;
+        padding: 10px 10px;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 52px;
+    }
+    /*************9_3_18-end***************/   
+    .share-top-2 {
+        min-height: 900px;
+    }
+    .share-top-3 {
+        min-height: 600px;
+    }
+    .header-job-search .btn-search .btn-primary {
+        background-color: #518172;
+        border-color: #518172 !important;
+        font-size: 15px;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+    }
+    .height-imgt-sec {
+        background-size: 100% 100%;
+        background-color: #fff;
+        /* padding: 146px 0px 160px 0px; */
+        background-position-x: 50%;
+        padding: 270px 0px;
+        background-position-y: 100%;
+        background-attachment: inherit;
+        background-repeat: no-repeat;
+    }
+
+    /****** career details page *********/
+
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1{padding:10px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1.carers-list-box .blog-list-box-left img {
+        width: 100%;
+        min-height: auto;
+        max-height: initial;
+    }
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right h1{font-size: 18px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .show-review ul li span{font-size: 14px; margin-left: 5px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right h2{font-size: 15px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right span{font-size: 14px;}
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btn{font-size: 11px; padding:8px 10px;}
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btn.log-job-btn{font-size:11px;}
+    .career-details .panel-body-main .right-part .job-list-grp .career-info-sec{padding: 10px;}
+    .career-details .panel-body-main .col-md-3.col-sm-4.padding-lt-rt{padding-right: 0;}
+    .career-details .panel-body-main .career-right-part .availability .table {
+        margin-top: 14px;
+        margin-bottom: 0;
+        zoom: 76%;
+    }
+    .career-details .panel-body-main .career-right-part .availability .table tbody tr td{font-weight: 600;}
+    .career-details .panel-body-main .career-right-part .reviews-right .reviews-short-dtls .no-padding{padding: 0 5px 0 0;}
+    .career-details .panel-body-main .career-right-part .reviews-right .scroll-div{height:286px;}
+
+    /****** end of career details page *********/
+
+    /**************new_responsive-9_5_18_start***************/
+    .footer .ftr-single-sec .ftr-address {
+        text-align: left;
+    }
+    .footer {
+        padding: 25px 0 35px 0;
+    }
+    .banner-sec h1 {
+        font-size: 50px;
+    }
+    .header-job-search {
+        margin-top: 10px;
+    }
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 145px 0 80px;
+    }
+    .header-job-search-2 .new-btn-wrp ul li a {
+        padding: 10px 15px;
+    }
+    .new-common-heading .top-part-heading-abt h5 {
+        font-size: 35px;
+    }
+    .new-common-heading {
+        margin-bottom:35px;
+    }
+    .new-common-heading .top-part-heading-abt h5:after {
+        top: 55px;
+    }
+    .welcome-start {
+        padding: 45px 0px;
+    }
+    .welcome-start .btm-part .left-part p {
+        margin-bottom: 15px;
+    }
+    .para-grp-on {
+        margin-bottom: 30px;
+    }
+    .himn-5 {
+        padding: 50px 0px;
+    }
+    .himn-5 h1 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .new-step-sec {
+        padding: 50px 0px;
+    }
+    .height-imgt-sec {
+        background-size: 100% 100%;
+        background-color: #fff;
+        background-position-x: 50%;
+        padding: 150px 0px;
+        background-position-y: 100%;
+        background-attachment: inherit;
+        background-repeat: no-repeat;
+    }
+    .img-text-sec .btm-part .img-thum-smi {
+        padding: 0px;
+    }
+    .img-text-sec {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .header .navbar-custom ul.nav li a {
+        font-size: 13px;
+        padding: 5px 7px;
+    }
+    .carer-search-1 .panel-body-main .right-part .bottom-part {
+        padding: 0px 0px 0px 0px;
+    }
+    .review-new h1 {
+        font-size: 13px;
+    }
+    .name-dg-grp p {
+        margin-bottom: 5px;
+    }
+    .name-dg-grp {
+        margin-bottom: 0px;
+    }
+    .career-details {
+        padding: 80px 0px;
+        padding-bottom: 0;
+    }
+    .nw-form-box .input-size{
+        height: 35px;
+        font-size: 12px;
+        border-radius: 0;
+        width: 83% !important;
+    }
+    .nw-form-box .btn.btn-info.button-size {
+        padding: 7px 2px;
+        width: auto;
+    }
+    .api-menu ul li .avel-box .form-control {
+        height: 35px;
+        font-size: 13px;
+        border-radius: 0;
+        padding: 3px 4px;
+    }
+    /**************new_responsive-9_5_18_end***************/ 
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-mid-box ul li{
+        margin-bottom: 5px !important;
+        padding-right: 0px !important;
+    }
+    .top-para {
+        margin-top: 5px;
+    }
+    .fav-h {
+    float: none;
+    font-size: 20px;
+    color: #ef1446;
+    position: inherit;
+    text-align: center;
+    margin-top: 15px;
+}
+.new-family-fav li{
+    display: block;
+    float: none;
+    vertical-align: top;
+}
+.new-family-fav li:nth-child(2) {
+    width: 100% !important;
+}
+.fav-btn22 a.style-btn{
+    padding: 10px 5px;
+}
+.fav-btn22 a.style-btn span {
+    top: -2px;
+    left: 0;
+    font-weight: 600 !important;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.tab-btn a.style-btn span{
+    font-size: 12px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    /****** career details page *********/
+
+    .career-details .panel-body-main .padding-lt-rt{padding-right:0;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1{padding:10px;}
+    .padding-rt{padding-right:15px;}
+    .career-details .panel-body-main .right-part .job-list-grp .job-list-1.carers-list-box .blog-list-box-left img {
+        width: 100%;
+        min-height: auto;
+        max-height: initial;
+        margin-bottom: 10px;
+    }
+    .career-details .panel-body-main .right-part .job-list-grp .career-info-sec{padding: 10px;}
+    .no-pad-left{padding-left: 15px;}
+    .career-details .panel-body-main .right-part .job-list-grp .career-info-sec{margin-bottom: 20px;}
+    .career-details .panel-body-main .career-right-part .availability .table-responsive {
+        border: 1px none;
+        margin-bottom: 0;
+    }
+
+    /****** end of career details page *********/
+
+    .new-font-class h1 {
+        font-size: 16px !important;
+        color: #253848 !important;
+        font-family: 'Raleway', sans-serif !important;
+    }
+    .share-top-3 {
+        padding-top: 60px;
+        position: relative;
+        min-height: 875px;
+    }
+    .share-top-2 {
+        min-height: 600px;
+    }
+    /********************header-start**********************/
+    .header .navbar-custom .site-logo {
+        display: inline-block;
+    }
+    .header {
+        padding: 10px 5px 0px 5px;
+    }
+    .header .navbar-custom .site-logo img{
+        display: inline-block;
+    }
+    .header .navbar-custom .navbar-toggle {
+        display: inline-block;
+        padding: 0;
+        top: 23px;
+        margin: 0;
+    }
+    .header .navbar-custom .navbar-toggle i{
+        font-size: 23px;
+    }
+    .header .navbar-custom ul.nav {
+        margin-top: 10px;
+    }
+
+    /********************header-end**********************/
+
+    /********************registratio-start**********************/
+    .panel-body-main {
+        background-color: #fff;
+        padding: 30px 10px;
+
+        border: 3px solid #e96d68;
+    }
+    .panel-body-main-top-1 {
+        background-color: #518172;
+        padding: 3px 3px;
+        border: 3px solid #9ed0da;
+        position: relative;
+    }
+
+    .panel-body-main .pay-sm-area h1 {
+
+        font-size:21px;
+
+        color: #2c3945;
+        padding-bottom: 5px;
+    }
+    .panel-body-main form .btn {
+        font-size: 15px;
+        background-color: #253848;
+        color: #fff;
+        padding: 10px 50px;
+        width: auto;
+        margin: 10px 0px 0px 0px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .panel-body-main-top-1:before {
+        background: url(../images/registrtion_smal-img-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: "";
+        position: absolute;
+
+        left: -30px;
+        top: -38px;
+
+        width: 83px;
+        height: 90px;
+        z-index: 5;
+    }
+
+
+    .registration-body {
+        background: url(../images/registration_bg.png) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        padding-bottom: 85px;
+        padding-top: 75px;
+        position: relative;
+    }
+    .panel-body-main form .checkbox {
+        margin-bottom: 0px !important;
+        display: block;
+    }
+    .panel-body-main form .btn {
+        margin-bottom: 10px;
+    }
+    .panel-body-main form .btn {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .nw-label-5 {
+        font-size: 13px;
+        color: #50575a;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    .pos-absulute {
+        position: absolute;
+        bottom: -13px;
+    }
+    .cst-lbl-chk {
+        font-size: 13px;
+        color: #7a8083;
+    }
+    .nw-label-20 {
+        font-size: 13px;
+        color: #50575a;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    .nw-label {
+        font-size: 13px;
+        color: #50575a;
+        font-weight: 400;
+    }
+    .cst-lbl-chk-3{
+        margin-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    /********************registratio-end**********************/
+
+    /********************dashboard-start**********************/
+    .dash-main-body .panel-body-main .left-part .bottom-part ul li a {
+        color: #96a9b2;
+        display: block;
+        padding: 12px 0px 12px 5px;
+    }
+    .dash-main-body .panel-body-main .left-part .bottom-part ul li a i {
+        color: #7c858d;
+        font-size: 17px;
+        width: auto;
+        display: block;
+    }
+    .dash-main-body .panel-body-main .left-part .bottom-part ul li {
+        font-size: 12px;
+        border-bottom: 1px solid #ecebeb;
+        text-align: center;
+        display: inline-block;
+        width: 49%;
+    }
+    .dash-main-body .panel-body-main .left-part .bottom-part ul li a {
+        color: #96a9b2;
+        display: block;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btm-feature-grp li ul li {
+        margin-left: 0px;
+        margin: 10px 0px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp li {
+        width: 100%;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp li:first-child {
+        padding-left: 0px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .btm-feature-grp li ul li:last-child {
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-left img {
+        min-height: 235px;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .dash-main-body .panel-body-main .right-part .bottom-part .mn-heading {
+        text-align: center;
+        margin-bottom: 15px !important;
+        font-size: 25px;
+    }
+    .dash-main-body .panel-body-main .right-part .bottom-part {
+        padding: 25px 15px 40px 15px;
+    }
+    .blue-hding-panel h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .dash-main-body .panel-body-main .right-part .top-part .top-part-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .dash-main-body .panel-body-main .right-part .top-part .top-part-box .up-circle {
+        margin-bottom: 5px;
+    }
+    .dash-main-body .panel-body-main .right-part .top-part .top-part-box h1 {
+        font-size: 13px;
+    }
+    .dash-main-body .panel-body-main .left-part .bottom-part {
+        padding: 0px 0px 0px 0px;
+    }
+    .dash-main-body .panel-body-main .right-part .job-list-grp .job-list-1 .blog-list-box-right .top-feature-grp li:nth-child(2) {
+        width: 100%;
+    }
+
+    .dash-main-body .panel-body-main .left-part .top-part .media .media-body h2 {
+        color: #fff;
+    }
+    .padding-lft-10 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dash-main-body .panel-body-main .right-part .top-part {
+        background-color: #f8f8f8;
+        font-family: 'Raleway', sans-serif !important;
+        padding: 35px 0px 15px 0px;
+    }
+    .dash-main-body-bg-four {
+        padding: 50px 0px;
+    }
+
+    /********************dashboard-end**********************/
+
+
+    /********************footer-start**********************/
+    .cst-tbl-1 {
+        text-align: center !important;
+    }
+    .footer .ftr-single-sec .cst-tbl-1:after {
+        top: 33px;
+        background-repeat-x: repeat;
+        background-repeat-y: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 52px;
+        right: 0;
+        height: 3px;
+        background-color: #51606d;
+        z-index: 1;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .ftr-single-sec .ftr-address {
+        text-align: center;
+        padding-right: 0;
+    }
+    .footer .ftr-single-sec .ftr-address ul li {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .header .navbar-custom ul.nav li .dropdown-menu {
+        border-top: 0px solid #518172;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    /********************footer-end**********************/
+
+    /********************index-start**********************/
+
+    .header-job-search .btn-search .btn-primary {
+        font-size: 20px;
+        padding: 8px 8px;
+    }
+
+    .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 84%;
+        position: relative;
+    }
+    .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 2px;
+        background-size: 82%;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 30%;
+        height: 160px;
+        z-index: 1;
+        top: 112px;
+    }
+    .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 350px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .content-step-mdl {
+        display: none !important;
+    }
+    .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -52px;
+        bottom: 65px;
+        width: 25%;
+        height: 170px;
+        z-index: 1;
+        transform: rotate(-24deg);
+    }
+
+    .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 97px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 220px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+
+    .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 80px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0;
+        width: 25%;
+        height: 162px;
+        z-index: 1;
+        top: 150px;
+    }
+
+    .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+
+
+    .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 388px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+    }
+    .content-step-5 .img-bx-1 img{
+        width:60px;
+    }
+    /********San Css******/
+
+
+    .share-top-2 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 2px;
+        background-size: 82%;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 30%;
+        height: 160px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 350px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -52px;
+        bottom: 65px;
+        width: 25%;
+        height: 170px;
+        z-index: 1;
+        transform: rotate(-24deg);
+    }
+
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 97px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 220px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 80px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0;
+        width: 25%;
+        height: 162px;
+        z-index: 1;
+        top: 150px;
+    }
+
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+
+
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 388px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .share-top-2 .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+    }
+    .share-top-2 .content-step-5 .img-bx-1 img{
+        width:60px;
+    }
+
+
+    .share-top-3 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-3 .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 2px;
+        background-size: 82%;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 30%;
+        height: 160px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-3 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-3 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-3 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-3 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-3 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 350px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-3 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-3 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 12px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-3 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-3 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: -10px;
+    }
+    .share-top-3 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -52px;
+        bottom: -30px;
+        width: 25%;
+        height: 170px;
+        z-index: 1;
+        transform: rotate(-24deg);
+    }
+
+    .share-top-3 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 12px;
+        padding: 0px 97px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 220px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+
+    .share-top-3 .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .share-top-3 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-3 .content-step-3 .img-bx-1 {
+        top: -50px;
+    }
+
+
+    /*    .height-imgt-sec {
+            background-size: 296% 98%;
+            background-color: #fff;
+            padding: 182px 0px 230px 0px;
+            background-position-x: 52%;
+            background-position-y: 342%;
+        }*/
+
+    .height-imgt-sec {
+        background-size: 100% 100%;
+        background-color: #fff;
+        padding: 100px 0px 160px 0px;
+        background-position-x: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+        background-attachment: initial;
+    }
+
+    /********************index-end**********************/
+
+
+    .about_top_menu ul li h1 {
+        display: none;
+    }
+    .about_top_menu ul li {
+        width: 15.5%;
+    }
+    .about_top_menu ul {
+        text-align: center;
+    }
+
+
+    .about_top .cont-area .media .media-body h1 {
+        font-size: 25px;
+        color: #333333;
+        margin-bottom: 5px;
+    }
+    .about_top .cont-area .media .media-left{
+        display: block;
+        text-align: center;
+    }
+    .about_top .cont-area .media .media-left img{
+        transform: rotate(20deg);
+    }
+    .top-part-heading-abt h5 {
+        font-size: 30px;
+        color: #333333;
+    }
+
+
+
+    .share-top-2 .content-step-1 {
+        background-color: #fff;
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 227px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 95px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 260px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 333px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .share-top-2 .content-step-1 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 227px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-3 .btm-part {
+        margin-top: 35px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 95px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 260px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 333px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+
+
+
+    .share-top-2 .content-step-1 {
+        background: url(../images/share_step_1.png);
+        background-color: transparent;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 269px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 18%;
+        height: 112px;
+        z-index: 1;
+        top: 160px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        .share-top-2 .content-step-2 h1 {
+            position: absolute;
+            left: 0px;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%);
+            top: 50%;
+            font-size: 11px;
+            padding: 0px 61px;
+            color: #253848;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 16%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 356px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 10px;
+        padding: 0px 65px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background: url(../images/share_step_2.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 230px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 308px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 43px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -345px;
+        width: 42%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 50px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 308px;
+        width: 78%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -28px;
+        bottom: 0px;
+        width: 16%;
+        height: 112px;
+        z-index: 1;
+        top: 256px;
+    }
+
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+    .share-top-2 .btm-part {
+        margin-top: 40px;
+    }
+    .about_top_menu {
+        padding-bottom: 5px;
+    }
+
+    .share-top-2 {
+        background-color: #cbf6e9;
+        background: url(../images/carpet_bg_1.jpg) #cbf6e9 50%/cover;
+        padding-bottom: 60px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-repeat-y: repeat;
+        padding-top: 60px;
+        position: relative;
+        min-height: 1830px;
+    }
+
+
+    .faq-abt .cont-txt-prt p {
+        font-size: 16px;
+    }
+    .child-care .child-care-top-1 .cont-txt-prt p {
+        font-size: 16px;
+    }
+    .child-care .child-care-top-3 .cont-txt-prt h1 {
+        font-size: 16px;
+    }
+    .child-care .child-care-top-3 .cont-txt-prt ul li {
+        font-size: 16px;
+    }
+    .child-care .child-care-top-3 .cont-txt-prt h2 {
+        font-size: 16px;
+    }
+    .child-care .child-care-top-3 .cont-txt-prt h3 {
+        font-size: 16px;
+    }
+    .child-care .child-care-top-3 .cont-txt-prt ol.nw-tbl-list {
+        padding-left: 18px;
+    }
+    .child-care .child-care-top-3 .cont-txt-prt ol.nw-tbl-list li {
+        font-size: 16px;
+    }
+    .disabilty-care .disabilty-care-top-1 .cont-txt-prt p {
+        font-size: 16px;
+    }
+    .aged-care .aged-care-top-1 .cont-txt-prt p {
+        font-size: 16px;
+    }
+    .share-sec .share-top-1 .cont-txt-prt p {
+        font-size: 16px;
+    }
+    .share-sec .share-top-6 .cont-txt-prt p {
+        font-size: 16px;
+    }
+    .share-sec .share-top-6 .cont-txt-prt h1 {
+        font-size: 16px;
+    }
+    .share-sec .share-top-6 .cont-txt-prt ul li {
+        font-size: 16px;
+    }
+    .share-sec .share-top-6 .cont-txt-prt h3 {
+        font-size: 16px;
+    }
+    .faq-abt .cont-txt-prt h1 {
+        font-size: 16px;
+    }
+    .about_top .cont-area .media .media-body h1 {
+        font-size: 16px;
+    }
+    .about_top .cont-area .media .media-body p {
+        font-size: 16px;
+        color: #253848;
+    }
+    .child-care-top-4 {
+        background: url(../images/child-img-2-1.jpg) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        background-attachment: fixed;
+        padding: 206px 0px;
+        position: relative;
+        background-position-x: 50%;
+    }
+    .aged-care .aged-care-top-2 {
+        background: url(../images/child-img-4-1.jpg) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        background-attachment: fixed;
+        padding: 230px 0px;
+        position: relative;
+        background-position-x: 65%;
+    }
+    .disabilty-care-top-2 {
+        background: url(../images/child-img-3-1.jpg) no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        background-attachment: fixed;
+        padding: 230px 0px;
+        position: relative;
+        background-position-x: 50%;
+    }
+    /*************9_3_18-start***************/
+    .carer-edit-prof-main {
+        padding: 0px 0px;
+    }
+    .carer-edit-prof-main .tab-area .nav-tabs > li > a {
+        padding: 10px 3px;
+        background-color: #CCCCCC;
+        margin: 0px 0px;
+        border-radius: 0px;
+        background-color: #f8f8f8;
+        border: 1px solid rgba(204, 204, 204, 0.34);
+        border-radius: 0px;
+        color: #7d7575;
+        font-size: 10px;
+    }
+    .chk-new {
+        display: inline-block;
+        margin-bottom: 11px !important;
+        margin-top: 11px !important;
+        margin-right: 0px !important;
+    }
+    .cst-frm-control-8 {
+        width: 75px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .cst-frm-control-9 {
+        width: 75px;
+    }
+    .table-cstt-line{
+        margin-bottom: 13px;
+    }
+    .cst-frm-control-8 {
+        width: 80px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .cst-frm-control-9 {
+        width: 80px;
+    }
+    .img-up-left-1 {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .img-up-left-1 .media .media-left{
+        display: block;
+    }
+    .img-up-left-1 .media .media-left img{
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .nw-cls-15{
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    /*************9_3_18-end***************/
+
+    .header-job-search-1 .btn {
+        background-color: #518172;
+        color: #ffffff;
+        box-shadow: none;
+        font-size: 15px;
+    }
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 100px 0 100px;
+    }
+
+    .header-job-search .btn-search .btn {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .about_top_menu {
+        padding-top: 25px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-repeat-y: repeat;
+        position: relative;
+    }
+    .about_top_menu ul {
+        text-align: center;
+        font-size: 0;
+    }
+    .about_top_menu ul li {
+        width: 50%;
+        display: inline-block;
+        margin-bottom:15px;
+    }
+    .about_top_menu ul li .top-part-img a img {
+        margin: 0 auto;
+        margin-bottom: 0px;
+        display: inline-block;
+        width: 120px;
+    }
+    .about_top_menu ul li h1 {
+        display: block;
+    }
+
+
+    .img-text-sec .btm-part .img-thum-smi{
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .img-text-sec-2 .btm-part .img-thum-smi-5{
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .share-top-2 {
+        min-height: 300px;
+    }
+
+
+    /*********************responsive-9-518-start********************/
+    .new-common-heading {
+        margin-bottom: 27px;
+    }
+    .new-common-heading .top-part-heading-abt h5 {
+        font-size: 28px;
+    }
+    .new-common-heading .top-part-heading-abt h5:after {
+        top: 45px;
+        content: "";
+    }
+    .welcome-start {
+        padding: 40px 0px;
+    }
+    .new-disp-tbl-cell {
+        display: block;
+        vertical-align: middle;
+        float: none;
+    }
+    .new-disp-tbl {
+        display: block;
+        width: auto;
+    }
+    .welcome-start .btm-part .left-part p {
+        margin-bottom: 10px;
+    }
+    .para-grp-on {
+        margin-bottom: 25px;
+    }
+    .cmn-grn-new-btn-wrp {
+        text-align: center;
+    }
+    .himn-5 h1 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+    .himn-5 {
+        padding: 40px 0px;
+    }
+    .img-text-sec .btm-part .img-thum-smi {
+        padding: 5px;
+    }
+    .img-text-sec {
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+
+    .himn-5 .cmn-grn-new-btn-wrp ul li {
+        width: 90%;
+    }
+    .himn-5 .cmn-grn-new-btn-wrp ul li:first-child {
+        margin-bottom: 20px;
+    }
+    .new-step-sec {
+        padding: 45px 0px;
+    }
+    .new-step-sec .how-thum .top-part-img {
+        min-height: 90px;
+    }
+    .new-step-sec .how-thum{
+        margin-bottom: 25px;
+    }
+    .banner-sec h1 {
+        font-size: 38px;
+    }
+    .header-job-search {
+        margin-top: 10px;
+    }
+    .header-job-search-2 {
+        border-radius: 0px;
+        background-color: rgba(235, 235, 235, 0);
+        padding: 0px 0px 0px 0px;
+        border: none;
+    }
+    .footer {
+        padding: 20px 0 20px 0;
+    }
+    .footer .ftr-single-sec .ftr-address {
+        text-align: left;
+        padding-right: 0;
+    }
+    .foot-bottom .copy-right {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .foot-bottom .foot-rt-prt {
+        text-align: center;
+    }
+    .footer .ftr-single-sec {
+        margin-bottom:15px;
+    }
+    .footer .ftr-single-sec .foot-nav li {
+        margin-bottom: 0px;
+    }
+    .header .navbar-custom .navbar-toggle i {
+        font-size: 23px;
+        color: #fff;
+    }
+    .header .navbar-custom ul.nav li.active a {
+        border-bottom: 1px solid rgba(148, 224, 200, 0.23137254901960785);
+        padding-bottom: 8px;
+    }
+    .header .navbar-custom ul.nav li {
+        padding: 0;
+        margin: 0px 8px;
+        text-align: center;
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        padding: 10px 15px;
+        background-image: none;
+        background-color:#284039;
+        background-repeat-x: repeat;
+        background-repeat: repeat-x;
+    }
+    .banner-sec {
+        background: url(../images/banner_mn-1.jpg) no-repeat scroll 50%/cover;
+        padding: 150px 0 70px;
+    }
+    .btn-mobi-1{
+        padding-bottom: 5px;
+    }
+    .footer .ftr-single-sec .foot-nav li {
+        font-size: 13px;
+    }
+    .footer .ftr-single-sec .ftr-heading {
+        font-size: 17px;
+        color: #fff;
+        font-weight: 600;
+        position: relative;
+        margin-bottom: 35px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    .footer .ftr-single-sec .ftr-heading:before {
+        top: 32px;
+    }
+    .footer .ftr-single-sec .ftr-heading:after {
+        top: 31px;
+    }
+    .footer .ftr-single-sec .ftr-address ul li {
+        font-size: 13px;
+    }
+    .foot-bottom .copy-right {
+        font-size: 13px;
+    }
+    .header .navbar-custom ul.nav li a:hover {
+        border-bottom: 1px solid rgba(148, 224, 200, 0.23137254901960785);
+        padding-bottom: 8px;
+    }
+
+    .new-step-sec .how-thum .top-part-img img:hover {
+        animation-name:none;
+        -moz-animation-name:none;
+    }
+    .no-pad-lft{
+        padding-right: 0px;
+    }
+    .header-job-search .btn-search {
+        float: none;
+    }
+    .height-imgt-sec {
+        background-size: cover;
+    }
+    @keyframes bounce {
+        0%, 100%, 20%, 50%, 80% {
+            -webkit-transform: translateY(0);
+            -ms-transform:     translateY(0);
+            transform:         translateY(0)
+        }
+        40% {
+            -webkit-transform: translateY(0);
+            -ms-transform:     translateY(0);
+            transform:         translateY(0)
+        }
+        60% {
+            -webkit-transform: translateY(0);
+            -ms-transform:     translateY(0);
+            transform:         translateY(0)
+        }
+    }
+    /*********************responsive-9-518-end********************/
+    .dash-main-body-bg-four {
+        padding: 120px 0px;
+    }
+    .banner-sec {
+        background: url(../images/banner_mn-h-1.jpg) no-repeat scroll 50%/cover;
+    }
+    .carer-search-1 .panel-body-main .left-part {
+        border: 1px solid #ededed;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .carer-search-1 .panel-body-main .left-part .bottom-part {
+        padding: 0px 0px 0px 0px;
+        position: relative;
+    }
+    .nw-mb-tgl {
+        text-align: inherit;
+        position: absolute;
+        right: 0;
+    }
+    .nw-mb-tgl img{
+        margin: 0;
+    }
+    .carer-search-1 .panel-body-main .right-part {
+        position: relative;
+        border-left: 1px solid #e5e5e5;
+        left: -1px;
+        height: auto;
+    }
+    .dash-main-body-bg-four {
+        padding: 50px 0px;
+    }
+    .nw-mb-tgl img {
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        width: 20px;
+    }
+    .nw-rdo-box {
+        padding-left: 16px;
+        padding-right: 5px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-mid-box ul li:last-child {
+        padding-right: 0px;
+        margin-bottom: 5px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-left-box .media{
+        margin-bottom: 15px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-mid-box ul li {
+        margin-bottom: 10px;
+    }
+    .carer-search-1 .panel-body-main .right-part .bottom-part {
+        padding: 0px 0px 0px 0px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new {
+        padding-bottom: 15px;
+    }
+    .carer-search-1 .panel-body-main .right-part .job-list-grp .clb-new .blog-left-box .media .media-body .heading-area h1 {
+        font-size: 15px;
+    }
+    .prof-inner-bnr {
+        padding: 25px 0px 25px 0px;
+    }
+    .bottom-ul ul li {
+        font-size: 12px;
+    }
+    .bottom-ul .nw-list {
+        margin-bottom: 20px;
+    }
+    .career-details {
+        padding: 80px 0px;
+        padding-bottom: 0;
+    }
+    .nw-form-box .input-size {
+        height: 35px;
+        font-size: 12px;
+        border-radius: 0;
+        width: 83% !important;
+    }
+    .nw-form-box .btn.btn-info.button-size {
+        padding: 7px 2px;
+        width: 15%;
+    }
+    .fav-h-2 {
+    margin-bottom: 0px;
+}
+.db-mn-bdy-1{
+    padding-top: 125px;
+}
+.fav-h {
+    float: none;
+    font-size: 20px;
+    color: #ef1446;
+    position: inherit;
+    text-align: center;
+    margin-top: 15px;
+}
+.new-text-right {
+    text-align: center;
+}
+.new-family-fav li{
+    display: block;
+    float: none;
+    vertical-align: top;
+}
+.new-family-fav li:nth-child(2) {
+    width: 100% !important;
+}
+.fav-btn22 a.style-btn{
+    padding: 10px 5px;
+}
+.fav-btn22 a.style-btn span {
+    top: -2px;
+    left: 0;
+    font-weight: 600 !important;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+
+
+.prof-inner-bnr.inner-bnr-abt h2 {
+       font-size: 28px;
+    margin-bottom: 15px;
+}
+.prof-inner-bnr.inner-bnr-abt h2:after {
+    top: 40px;
+}
+.prof-inner-bnr.inner-bnr-abt {
+    background-image: none;
+    padding-bottom: 0px;
+    padding-top: 35px;
+}
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+
+
+}
+
+
+/* XS Portrait */
+@media (max-width: 640px) {
+
+
+
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+
+
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+
+    /*         .child-care-top-4 {
+            background: url(../images/child-img-2-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 206px 0px;
+            position: relative;
+            background-position-x: 50%;
+        }*/
+    /*    .aged-care .aged-care-top-2 {
+            background: url(../images/child-img-4-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 230px 0px;
+            position: relative;
+                    background-position-x: 65%;
+        }*/
+    /*    .disabilty-care-top-2 {
+            background: url(../images/child-img-3-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 230px 0px;
+            position: relative;
+            background-position-x: 50%;
+        }*/
+
+    .header-job-search .btn-search .btn-primary {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .header-job-search .input-keyword .form-control {
+        font-size: 16px;
+    }
+    .scroll-down {
+        position: absolute;
+        bottom: -123px !important;}
+
+
+    .content-step-1 {
+        height: 236px;
+    }
+
+    .content-step-2 {
+        height: 313px;
+    }
+    .content-step-mdl {
+        display: none !important;
+    }
+    .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -40px;
+        bottom: 4px;
+        width: 25%;
+        height: 157px;
+        z-index: 1;
+        transform: rotate(-28deg);
+    }
+
+    .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 97px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-3 {
+        height: 202px;
+
+    }
+
+    .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .content-step-4 {
+        height: 272px;
+
+    }
+    .content-step-4 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+
+    }
+    .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0;
+        width: 25%;
+        height: 162px;
+        z-index: 1;
+        top: 150px;
+    }
+
+    .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .content-step-5 {
+        height: 350px;
+        top: 130px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+    }
+    .content-step-5 .img-bx-1 img{
+        width:60px;
+    }
+
+
+
+    .share-sec-2 .content-step-1 {
+        height: 236px;
+    }
+
+    .share-sec-2 .content-step-2 {
+        height: 313px;
+    }
+    .share-sec-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-sec-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-sec-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-sec-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-sec-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-sec-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-sec-2 .content-step-2:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -40px;
+        bottom: 4px;
+        width: 25%;
+        height: 157px;
+        z-index: 1;
+        transform: rotate(-28deg);
+    }
+
+    .share-sec-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 97px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-sec-2 .content-step-3 {
+        height: 202px;
+
+    }
+
+    .share-sec-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .share-sec-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-sec-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-sec-2 .content-step-4 {
+        height: 272px;
+
+    }
+    .share-sec-2 .content-step-4 h1 {
+        transform: translateY(-50%);
+        top: 50%;
+
+    }
+    .share-sec-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-sec-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-sec-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-sec-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-sec-2 .content-step-4:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0;
+        width: 25%;
+        height: 162px;
+        z-index: 1;
+        top: 150px;
+    }
+
+    .share-sec-2 .content-step-mdl-2:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-sec-2 .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .share-sec-2 .content-step-5 {
+        height: 350px;
+        top: 130px;
+    }
+    .share-sec-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-sec-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-sec-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .share-sec-2 .content-step-5 .img-bx-1 {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+    }
+    .share-sec-2 .content-step-5 .img-bx-1 img{
+        width:60px;
+    }
+
+
+
+    .share-top-2 .content-step-1 {
+        background-color: transparent;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 230px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 20%;
+        height: 112px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        .share-top-2 .content-step-2 h1 {
+            position: absolute;
+            left: 0px;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%);
+            top: 50%;
+            font-size: 11px;
+            padding: 0px 61px;
+            color: #253848;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -20px;
+        bottom: 0px;
+        width: 20%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 310px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 10px;
+        padding: 0px 65px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/share_step_2.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 202px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 43px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 61px;
+        bottom: -307px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 50px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 340px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-2 {
+        min-height: 1700px;
+    }
+    .share-top-2 {
+        min-height: 300px;
+    }
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+
+        height: 145px;
+        z-index: 1;
+        top: 190px;
+    }
+
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+    .share-top-2 .btm-part {
+        margin-top: 40px;
+    }
+
+    .share-top-3 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 94%;
+        position: relative;
+    }
+
+
+    .share-top-3 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 323px;
+        right: 0;
+        width: 93%;
+        float: right;
+        position: relative;
+    }
+
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -37px;
+        bottom: -25px;
+        width: 23%;
+        height: 140px;
+        z-index: 1;
+        transform: rotate(-24deg);
+    }
+    .share-top-3 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 12px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .share-top-3 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/share_step_3.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 195px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+    .share-top-3 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+
+}
+@media only screen and (max-width: 360px) {
+    /*         .child-care-top-4 {
+            background: url(../images/child-img-2-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 206px 0px;
+            position: relative;
+            background-position-x: 50%;
+        }*/
+    /*    .aged-care .aged-care-top-2 {
+            background: url(../images/child-img-4-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 230px 0px;
+            position: relative;
+                    background-position-x: 65%;
+        }*/
+    /*    .disabilty-care-top-2 {
+            background: url(../images/child-img-3-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 230px 0px;
+            position: relative;
+            background-position-x: 50%;
+        }*/
+
+
+
+    .header-job-search .btn-search .btn-primary {
+        font-size: 17px;
+        padding: 8px 7px;
+    }
+
+    .header-job-search .input-keyword .form-control {
+        font-size: 16px;
+    }
+    .scroll-down {
+        position: absolute;
+        bottom: -184px !important;}
+
+
+    .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 227px;
+        width: 84%;
+        position: relative;
+    }
+    .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+    .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .content-step-mdl {
+        display: none !important;
+    }
+    .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 95px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 260px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 333px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 112px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 227px;
+        width: 84%;
+        position: relative;
+    }
+    .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+    .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .content-step-mdl {
+        display: none !important;
+    }
+    .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 95px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 260px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 333px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 112px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+
+
+    .share-top-2 .content-step-1 {
+        background-color: #fff;
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 227px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 95px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 260px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 333px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+    .share-top-2 .content-step-1 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 227px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 304px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 16px;
+        padding: 0px 95px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 260px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 64px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 333px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+
+
+
+    .share-top-2 .content-step-1 {
+        background-color: transparent;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 224px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 8px;
+        width: 20%;
+        height: 112px;
+        z-index: 1;
+        top: 125px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        .share-top-2 .content-step-2 h1 {
+            position: absolute;
+            left: 0px;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%);
+            top: 50%;
+            font-size: 11px;
+            padding: 0px 61px;
+            color: #253848;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 17%;
+        height: 102px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 305px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 10px;
+        padding: 0px 65px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 { 
+        background: url(../images/share_step_2.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 190px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 258px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 43px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -295px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 50px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 293px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        top: 150px;
+    }
+
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+    .share-top-2 .btm-part {
+        margin-top: 40px;
+    }
+
+
+
+    .share-top-3 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 230px;
+        width: 83%;
+        position: relative;
+    }
+    .share-top-3 .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 2px;
+        background-size: 82%;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 30%;
+        height: 160px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-3 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-3 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-3 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-3 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-3 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 300px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-3 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-3 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-3 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-3 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: -10px;
+    }
+    .share-top-3 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -52px;
+        bottom: -13px;
+        width: 25%;
+        height: 140px;
+        z-index: 1;
+        transform: rotate(-24deg);
+    }
+
+    .share-top-3 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 {
+        min-height: 1000px;
+    }
+    .share-top-3 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/share_step_3.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 190px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 335px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+    .share-top-3 .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .share-top-3 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-3 .content-step-3 .img-bx-1 {
+        top: -40px;
+    }
+    .share-top-2 {
+        min-height: 1700px;
+    }
+}
+@media (min-width: 320px) and (max-width: 359px) {
+    /*         .child-care-top-4 {
+            background: url(../images/child-img-2-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 206px 0px;
+            position: relative;
+            background-position-x: 50%;
+        }*/
+    /*    .aged-care .aged-care-top-2 {
+            background: url(../images/child-img-4-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 230px 0px;
+            position: relative;
+                    background-position-x: 65%;
+        }*/
+    /*    .disabilty-care-top-2 {
+            background: url(../images/child-img-3-1-m.jpg) no-repeat;
+            background-size: cover;
+            background-color: #fff;
+            background-attachment: fixed;
+            padding: 230px 0px;
+            position: relative;
+            background-position-x: 50%;
+        }*/
+
+
+
+    .header-job-search .btn-search .btn-primary {
+        font-size: 14px;
+        padding: 8px 4px;
+    }
+
+    .header-job-search .input-keyword .form-control {
+        font-size: 14px;
+    }
+    .scroll-down {
+        position: absolute;
+        bottom: -184px !important;}
+
+
+    .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 200px;
+        width: 84%;
+        position: relative;
+    }
+    .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 112px;
+        z-index: 1;
+        top: 112px;
+    }
+    .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .content-step-mdl {
+        display: none !important;
+    }
+    .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+
+    .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 65px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 229px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 43px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .content-step-5 h1 {
+        position: absolute;
+        left: -25px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+    }
+    .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 293px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+
+    .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+
+
+
+
+    .share-top-2 .content-step-1 {
+        background-color: transparent;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 200px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-2 .content-step-1:after {
+
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 112px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-2 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 18px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-2 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 90%;
+        position: relative;
+    }
+    .share-top-2 .content-step-2 {
+        .share-top-2 .content-step-2 h1 {
+            position: absolute;
+            left: 0px;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%);
+            top: 50%;
+            font-size: 11px;
+            padding: 0px 61px;
+            color: #253848;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    .share-top-2 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-2 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-2 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: 25px;
+    }
+    .share-top-2 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-2 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -33px;
+        bottom: -5px;
+        width: 25%;
+        height: 122px;
+        z-index: 1;
+        transform: rotate(-35deg);
+    }
+    .share-top-2 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 10px;
+        padding: 0px 65px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 64px;
+        position: relative;
+    }
+    .share-top-2 .content-step-3 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 167px;
+        width: 100%;
+        top: 35px;
+        position: relative;
+    }
+    .share-top-2 .content-step-mdl-2 {
+        width: 35%;
+        top: 10px;
+    }
+
+    .share-top-2 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-2 .content-step-3 .img-bx-1 {
+        top: -47px;
+    }
+    .share-top-2 .content-step-4 {
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 229px;
+        width: 90%;
+        top: 85px;
+        position: relative;
+    }
+    .share-top-2 .content-step-4 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 43px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    .share-top-2 .content-step-4 .img-bx-1 img{
+        width:60px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 img{
+        width: 100px;
+    }
+    .share-top-2 .content-step-4 .img-bx-2 {
+        position: absolute;
+        left: 18px;
+        bottom: -13px;
+    }
+    .share-top-2 .content-step-mdl-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: 55px;
+        bottom: -270px;
+        width: 50%;
+        height: 110px;
+        z-index: 1;
+        transform: rotate(-40deg);
+    }
+    .share-top-2 .content-step-5 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 50px;
+        color: #253848;
+    }
+    .share-top-2 .content-step-5 {
+        background-color: #fff;
+        background: url(../images/how_fifth_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 293px;
+        width: 100%;
+        right: 0%;
+        top: 100px;
+        position: relative;
+    }
+
+    .share-top-2 .content-step-4:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 25%;
+        height: 130px;
+        z-index: 1;
+        top: 112px;
+    }
+
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 {
+        position: absolute;
+        right: 18px;
+        top: -1px;
+    }
+    .share-top-2 .content-step-5 .img-bx-2 img{
+        width: 90px;
+    }
+    .share-top-2 .btm-part {
+        margin-top: 40px;
+    }
+
+
+    .share-top-3 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 270px;
+        width: 84%;
+        position: relative;
+    }
+    .share-top-3 .content-step-1:after {
+        background: url(../images/how_it_arrow_2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: 2px;
+        background-size: 82%;
+        content: "";
+        position: absolute;
+        right: -37px;
+        bottom: 0px;
+        width: 30%;
+        height: 160px;
+        z-index: 1;
+        top: 112px;
+    }
+    .share-top-3 .content-step-1 .img-bx-2 {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .share-top-3 .content-step-1 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-3 .content-step-1 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 60px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-1 .img-bx-1 {
+        position: absolute;
+        right: 15px;
+        top: -7px;
+    }
+    .share-top-3 .content-step-1 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-3 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 350px;
+        right: 0;
+        width: 90%;
+        float: right;
+        position: relative;
+    }
+    .share-top-3 .content-step-mdl {
+        display: none !important;
+    }
+    .share-top-3 .content-step-2 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 61px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-2 .img-bx-2 {
+        position: absolute;
+        right: 70px;
+        bottom: -10px;
+    }
+    .share-top-3 .content-step-2 .img-bx-2 img{
+        width: 80px;
+    }
+    .share-top-3 .content-step-2 .img-bx-1 {
+        position: absolute;
+        right: -2px;
+        top: -10px;
+    }
+    .share-top-3 .content-step-2 .img-bx-1 img{
+        width: 60px;
+    }
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -52px;
+        bottom: 65px;
+        width: 25%;
+        height: 170px;
+        z-index: 1;
+        transform: rotate(-24deg);
+    }
+
+    .share-top-3 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 15px;
+        padding: 0px 97px;
+        color: #253848;
+        font-family: 'Raleway', sans-serif;
+    }
+    .share-top-3 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/how_third_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 220px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+
+    .share-top-3 .content-step-mdl-2 {
+        width: 35%;
+        top: 30px;
+    }
+
+    .share-top-3 .content-step-3 .img-bx-1 img {
+        margin: 0 auto;
+        width: 60px;
+    }
+    .share-top-3 .content-step-3 .img-bx-1 {
+        top: -45px;
+    }
+    .share-top-3 .content-step-1 {
+        background-color: #fff;
+        background: url(../images/how_first_thum_1.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 209px;
+        width: 91%;
+        position: relative;
+    }
+    .share-top-3 .content-step-2 {
+        background-color: #fff;
+        background: url(../images/how_second_thum_1.png);
+        background-size: cover;
+        padding-bottom: 82px;
+        padding-top: 41px;
+        display: inline-block;
+        height: 270px;
+        right: 0;
+        width: 93%;
+        float: right;
+        position: relative;
+    }
+    .share-top-3 .content-step-2 h1 {
+        left: 0px;
+        right: 0;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 0px 55px;
+
+    }
+    .share-top-3 .content-step-2:after {
+        background: url(../images/how_it_arrow_3.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        right: auto;
+        left: -30px;
+        bottom: 65px;
+        width: 25%;
+        height: 135px;
+        z-index: 1;
+        top: 176px;
+        transform: rotate(-24deg);
+    }
+
+    .share-top-3 .content-step-3 {
+        background-color: #fff;
+        background: url(../images/share_step_3.png);
+        background-size: cover;
+        padding-bottom: 85px;
+        padding-top: 60px;
+        display: inline-block;
+        height: 169px;
+        width: 100%;
+        top: 36px;
+        position: relative;
+    }
+    .share-top-3 .content-step-3 h1 {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        text-align: center;
+        transform: translateY(-50%);
+        top: 50%;
+        font-size: 11px;
+        padding: 12px 65px;
+
+    }
+    .share-top-3 {
+        padding-top: 60px;
+        position: relative;
+        min-height: 980px;
+    }
+
+    .share-top-2 {
+        min-height: 1550px;
+    }
+
+    .header-job-search .btn-search .btn {
+        width: 100%;
+        margin-left: 15px;
+    }
+    .share-top-2 {
+        min-height:300px;
+    }
+}

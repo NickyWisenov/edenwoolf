@@ -1,0 +1,111 @@
+<?php
+
+use yii\helpers\Html;
+use yii\helpers\Url;
+
+$this->title = 'Carer Search';
+if (count($result) > 0) {
+    foreach ($result as $key => $value) {
+        $val = (object) $value;
+        ?>
+        <div class="job-list-1 carers-list-box">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="blog-list-box-left">
+                        <a href="javascript:;"><img src="<?= $this->context->getUserProfileImage($val->id) ?>" alt="" class="img-responsive"></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                    <div class="blog-list-box-right">
+                        <?php
+                        $fav = \app\models\FavouriteMaster::find()->where(['user_id' => Yii::$app->user->id, 'fav_id' => $val->id, 'status' => "1"])->count();
+                        if ($val->id != Yii::$app->user->id && isset(Yii::$app->user->identity->type_id) && Yii::$app->user->identity->type_id != '2') {
+                            ?>
+                            <div class="fav-h <?= (($fav > 0) ? 'active' : ''); ?>">
+                                <a href="javascript:;" onclick="<?= (($fav > 0) ? 'removefromFav(this);' : 'addtoFav(this);'); ?>" data-id="<?= $val->id; ?>">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <?php
+                        }
+                        ?>
+                        <h1> <a href="javascript:;"><?= $val->display_name ?></a></h1>
+                        <h2>5 Reviews <span>( 3.5 )</span></h2>
+                        <ul class="list-inline top-feature-grp">
+                            <?php
+                            if ($val->care_type != '') {
+                                $care_type = explode(',', $val->care_type);
+                                ?>
+                                <li><i class="fa fa-tag" aria-hidden="true"></i><span>
+                                        <?php
+                                        foreach ($care_type as $ckey => $cvalue) {
+                                            if ($ckey == 0) {
+                                                if ($cvalue == 1) {
+                                                    echo "Childcare";
+                                                } else if ($cvalue == 2) {
+                                                    echo "Aged Care";
+                                                } else if ($cvalue == 3) {
+                                                    echo "Disablity Care";
+                                                }
+                                            } else {
+                                                if ($cvalue == 1) {
+                                                    echo ", Childcare";
+                                                } else if ($cvalue == 2) {
+                                                    echo ", Aged Care";
+                                                } else if ($cvalue == 3) {
+                                                    echo ", Disablity Care";
+                                                }
+                                            }
+                                        }
+                                        ?>
+                                    </span></li>
+                            <?php } ?>
+                            <?php
+                            if ($val->job_type != '') {
+                                $job_type = explode(',', $val->job_type);
+                                ?>
+                                <li>
+                                    <i class="fa fa-puzzle-piece" aria-hidden="true"></i> <span>
+                                        <?php
+                                        foreach ($job_type as $ckey => $cvalue) {
+                                            $job_desc = \app\models\JobDescription::findOne($cvalue);
+                                            if ($ckey == 0) {
+                                                echo $job_desc->search_form_value;
+                                            } else {
+                                                echo ', ' . $job_desc->search_form_value;
+                                            }
+                                        }
+                                        ?>
+                                    </span>
+                                </li>
+                            <?php } ?>
+                            <li>
+                                <i class="fa fa-clock-o" aria-hidden="true"></i> <span>
+                                    Experience <?= ($val->caring_experience > 4) ? '5+' : ($val->caring_experience == NULL) ? '0' : $val->caring_experience; ?><?= ($val->caring_experience >= 1) ? ' years' : ' year' ?>
+                                </span>
+                            </li>
+                        </ul>
+                        <p>
+                            <?= $val->description ?>
+                        </p>
+                        <div class="text-center row">
+                            <div class="col-sm-6">
+                                <a class="style-btn blue-btn" href="<?= Yii::$app->urlManager->createAbsoluteUrl(["search/carerprofile", "car_id" => base64_encode($val->id)]) ?>"><span>View profile</span></a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a class="style-btn" href="<?= Yii::$app->urlManager->createAbsoluteUrl(["joblog/index", "car_id" => base64_encode($val->id)]) ?>"><span>Log a job</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <?php
+    }
+} else {
+    ?>
+    <div class="job-list-1 carers-list-box text-center">
+        <p>No Result Found</p>
+    </div>
+<?php } ?>

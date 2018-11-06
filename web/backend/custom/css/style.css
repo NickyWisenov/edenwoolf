@@ -1,0 +1,46 @@
+.radio-list label{
+    cursor: pointer !important;
+}
+.easy-autocomplete-container ul{ max-height: 160px; overflow: auto; padding-bottom: 5px; border-bottom: 1px solid #ddd;}
+.eac-item table tr td{ padding: 5px;}
+.eac-item table tr td p{ margin: 0px; font-size: 13px;}
+
+/* Css for Admin Blog */
+
+.blog-view {
+
+}
+
+.blog-view .title {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+.blog-view .subheading {
+	text-align: center;
+}
+
+.blog-view .blog-img {
+	text-align: center;
+}
+
+.blog-view .blog-img img {
+	height: 400px;
+}
+
+.blog-view .blog-body {
+	margin-top: 30px;
+}
+
+
+.select2-container .select2-selection--single {
+	height: 33px;
+}
+
+/* Blog Section */
+.create-blog-btn {
+	margin-right: 10px;
+}
+
+
