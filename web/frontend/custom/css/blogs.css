@@ -198,7 +198,8 @@
 }
 
 .blog-container .blog-item {
-    height: auto;
+    position: relative;
+    height: 500px;
     overflow: hidden;
     margin-bottom: 40px;
 }
@@ -266,7 +267,8 @@
 }
 
 .blog-container .blog-item .blog-footer {
-
+  position: absolute;
+  bottom: 10px;
 }
 
 .blog-container .blog-item .blog-footer .share-buttons {
