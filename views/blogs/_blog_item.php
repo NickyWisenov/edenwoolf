@@ -4,24 +4,25 @@
 
 ?>
 <!-- Blog Item Partial Start -->
-<div class="blog-item col-md-4 col-sm-6 col-xs-12">
+<div class="blog-item col-lg-4 col-md-6 col-xs-12">
 	<div class="blog-img">
 		<img src="<?= $blog->image ?>">
 	</div>
 	<p class="blog-categoryName"><?= $blog->category->category_name ?></p>
-
-	<a href=<?php echo Url::to(['view', 'id' => $blog->id]); ?>>
-		<h1 class="blog-title">
+	<div class="blog-title-div">
+		<a class="blog-title" href=<?php echo Url::to(['view', 'id' => $blog->id]); ?>>
 			<?= $blog->title ?>
-		</h1>
-	</a>
+		</a>
+	</div>
 	
-	<h2 class="blog-subheading">
-		<?= $blog->subheading ?>
-	</h2>
+	<div class="blog-subheading-div">
+		<h2 class="blog-subheading">
+			<?= $blog->subheading ?>
+		</h2>
+	</div>
 
 	<div class="blog-body">
-		<?= BaseStringHelper::truncate($blog->body, 200, ' ... ', null, true); ?>
+		<?= BaseStringHelper::truncate($blog->body, 100, ' ... ', null, true); ?>
 	</div>
 	<div class="blog-footer">
 		<span class="blog-created-at">

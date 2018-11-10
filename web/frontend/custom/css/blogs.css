@@ -147,8 +147,7 @@
     top: -2px;
     left: 0;
     font-weight: 600 !important;
-    font-size: 1.4em;
-    letter-spacing: 1px;
+    font-size: 1em;
 }
 .blogs-sec .showmore-button a:hover>span.showmore-txt {
     top: 7px;
@@ -195,14 +194,16 @@
 
 .blog-container {
     margin-top: 30px;
+    width: 73vw;
 }
 
 .blog-container .blog-item {
     position: relative;
-    height: 500px;
+    height: 578px;
     overflow: hidden;
     margin-bottom: 40px;
 }
+
 .blog-container .blog-categoryName {
 	margin-top: 20px;
 	font-family: "raleway";
@@ -210,10 +211,12 @@
 	font-weight: bold;
 	color: black;
 }
+
 .blog-container .blog-item .blog-img {
 	height: 250px;
 	text-align: center;
 }
+
 .blog-container .blog-item .blog-img img {
     height: 100%;
 }
@@ -226,18 +229,27 @@
     font-family: "ralewaysemibold";
 
 }
-.blog-container .blog-item .blog-title {
+.blog-container .blog-item .blog-title-div {
+  height: 100px;
+}
+
+.blog-container .blog-item .blog-title-div .blog-title {
     font-family: raleway;
     font-weight: bold;
     font-size: 2.3em;
+    color: black;
+    line-height: 1em;
 }
 
-.blog-container .blog-item .blog-title:hover {
-    /*color: rgb(63, 50, 104);*/
+.blog-container .blog-item .blog-title-div .blog-title:hover {
     color: red;
 }
 
-.blog-container .blog-item .blog-subheading {
+.blog-container .blog-item .blog-subheading-div {
+      height: 59px;
+}
+
+.blog-container .blog-item .blog-subheading-div .blog-subheading {
     font-size: 1.4em;
     padding-top: 1.1vw;
     padding-bottom: 1.1vw;
@@ -267,8 +279,8 @@
 }
 
 .blog-container .blog-item .blog-footer {
-  position: absolute;
-  bottom: 10px;
+    border-bottom: 1px solid #73737373;
+    padding-bottom: 12px;
 }
 
 .blog-container .blog-item .blog-footer .share-buttons {
@@ -315,7 +327,6 @@
     font-size: 0.7em;   
 }
 
-
 .detail-view-sec {
     padding-top: 20vh;
 }
@@ -360,7 +371,6 @@
 .detail-view-sec .category a {
     color: black;
 }
-
 
 .detail-view-sec .body {
     padding: 10px;
@@ -608,7 +618,6 @@
     left: 7px;
 }
 
-
 .comments-sec .add-comment-div .btn-comment:after {
     -webkit-transition: all 100ms ease-in-out;
     -moz-transition: all 100ms ease-in-out;
@@ -630,60 +639,33 @@
     margin-top: 100px;
 }
 
-
-
-
-
-
 /* Responsive Design */
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) and (max-width: : 1780px) {
-  
+@media (max-width: 1660px) {
+  .blog-container .blog-item {
+    height: 600px;
+  }
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
+@media (max-width: 1348px) {
+  .blog-container {
+    width: 85vw;
+  }
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
+@media (max-width: 991px) {
+  .blog-container {
+    width: 60vw;
+  }
 }
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media (max-width: 850px) {
+  .blog-container {
+    width: 65vw;
+  }
+  /* Category Responsive Style */
   .blogs-sec .category-collapse-button {
       display: block;
+      outline: none;
   }
   
   .blogs-sec .category {
@@ -710,10 +692,32 @@
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  //CSS
-  .blogs-sec .category {
-    display: none;
+@media (max-width: 533px) {
+  .blog-container {
+    width: 85vw;
   }
 }
+
+@media (max-width: 411px) {
+  .blog-container {
+    width: 97vw;
+  }
+
+  .blog-container .blog-item {
+    height: 640px;
+  }
+
+  .blog-container .blog-item .blog-title-div .blog-title {
+      font-size: 2em;
+      line-height: 1em;
+  }
+
+  .blog-footer {
+    text-align: center;
+  }
+  .blog-container .blog-item .blog-footer .share-buttons {
+    float: none;
+    padding-top: 16px;
+  }
+}
+

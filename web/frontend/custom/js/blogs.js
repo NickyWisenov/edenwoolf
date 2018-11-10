@@ -18,6 +18,8 @@ $(document).ready(function () {
 				'width': '0px'
 			});
 
+			$(".category").removeAttr('style');
+
 			$(this).removeClass('open');
 
 			$('body').css({

@@ -105,7 +105,6 @@ class Blog extends \yii\db\ActiveRecord
 
     }
 
-
     /**
      * Get Comments
      **/
@@ -113,4 +112,14 @@ class Blog extends \yii\db\ActiveRecord
     {
       return $this->hasMany(Comment::className(), ['blog_id' => 'id']);
     }
+
+    /**
+     * Get Latest 3 blogs
+     **/
+    public function getMostRecentBlogs()
+    {
+      
+      return $this->hasMany(Comment::className(), ['blog_id' => 'id']);
+    }
+
 }
