@@ -53,6 +53,5 @@
 			</ul>
 		</div>	
 	</div>
-	
 </div>
 <!-- Blog Item Partial End -->

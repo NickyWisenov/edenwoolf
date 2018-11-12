@@ -55,8 +55,15 @@ $this->title = "Eden Woolf - $blog->title";
 
 </div>
 
-<div class="next-recent-blogs">
-	
+<div class="recent-blogs">
+	<?php
+		$recentBlogs = $blog->getMostRecentBlogs();
+		foreach ($recentBlogs as $id => $recent_blog) {
+			echo $this->render('_recent_blog_item.php', [
+				'recent_blog' => $recent_blog
+			]);
+		}
+	?>
 </div>
 
 <div class="comments-sec">

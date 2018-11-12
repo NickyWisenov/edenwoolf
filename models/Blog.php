@@ -118,6 +118,9 @@ class Blog extends \yii\db\ActiveRecord
      **/
     public function getMostRecentBlogs()
     {
+
+      $blogs = $this->find()->orderBy(['created_at' => SORT_DESC])->limit(3)->all();
+      return $blogs;
       
       return $this->hasMany(Comment::className(), ['blog_id' => 'id']);
     }

@@ -373,11 +373,20 @@
 }
 
 .detail-view-sec .body {
-    padding: 10px;
     margin-top: 30px;
     font-size: 1.6em;
     color: black;
     font-family: "raleway";
+}
+
+/* Text alignment in the blog body */
+.detail-view-sec .body p {
+    text-align: justify;
+}
+
+/* Image style of the one in the blog content */
+.detail-view-sec .body p img {
+    width: 100%;
 }
 
 .detail-view-sec .author {
@@ -453,6 +462,27 @@
 
 /**************    Blogs End    ********************/
 
+/**************** Recent Blog ***************/
+.detail-view-sec .recent-blogs {
+
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item {
+    height: 300px;
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-img {
+    height: 30%;
+
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-img img{
+    height: 100%;
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-title {
+
+}
 
 
 /***************   Comment Section Start *****************/
