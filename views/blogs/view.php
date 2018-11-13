@@ -55,7 +55,7 @@ $this->title = "Eden Woolf - $blog->title";
 
 </div>
 
-<div class="recent-blogs">
+<div class="recent-blogs row">
 	<?php
 		$recentBlogs = $blog->getMostRecentBlogs();
 		foreach ($recentBlogs as $id => $recent_blog) {
