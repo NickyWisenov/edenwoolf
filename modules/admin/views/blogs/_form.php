@@ -21,9 +21,9 @@ $imageurl = Yii::$app->urlManager->createUrl('./../../') . '/' .$model->image;
 
     <?= $form->field($model, 'user_id')->hiddenInput(['value' => Yii::$app->user->identity->id])->label(false) ?>
 
-    <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'title')->textInput(['maxlength' => false]) ?>
 
-    <?= $form->field($model, 'subheading')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'subheading')->textInput(['maxlength' => false]) ?>
 
 
     <?= $form->field($model, 'body')->textArea(['class' => "form-control ckeditor", 'placeholder' => "Body Text"])->label('Body Text'); ?>

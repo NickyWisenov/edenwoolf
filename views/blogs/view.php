@@ -37,16 +37,16 @@ $this->title = "Eden Woolf - $blog->title";
 	<div class="share-buttons" data-blogId="<?= $blog->id ?>">
 		<ul class="share-buttons-list">
 			<li class="fb">
-				<i class="fa fa-facebook"></i>
-				<span class="fb-shared-num" data-sc-fb="<?= Yii::$app->request->absoluteUrl ?>">0</span>
+				<img src="/frontend/images/icons/social-twitter.png" />
+				<!-- <span class="fb-shared-num" data-sc-fb="<?= Yii::$app->request->absoluteUrl ?>">0</span> -->
 			</li>				
 			<li class="in">
-				<i class="fa fa-linkedin"></i>
-				<span class="in-shared-num" data-sc-ln="<?= Yii::$app->request->absoluteUrl ?>">0</span>
+				<img src="/frontend/images/icons/social-twitter.png" />
+				<!-- <span class="in-shared-num" data-sc-ln="<?= Yii::$app->request->absoluteUrl ?>">0</span> -->
 			</li>				
 			<li class="tw">
 				<img src="/frontend/images/icons/social-twitter.png" />
-				<span class="tw-shared-num" data-sc-tw="<?= Yii::$app->request->absoluteUrl ?>">0</span>
+<!-- 				<span class="tw-shared-num" data-sc-tw="<?= Yii::$app->request->absoluteUrl ?>">0</span> -->
 			</li>
 		</ul>
 	</div>

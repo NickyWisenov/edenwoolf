@@ -33,7 +33,7 @@ class Blog extends \yii\db\ActiveRecord
             [['user_id', 'title'], 'required'],
             [['user_id', 'category_id'], 'integer'],
             [['body'], 'string'],
-            [['title', 'subheading', 'image'], 'string', 'max' => 50],
+            [['title', 'subheading', 'image'], 'string', 'max' => 100],
             [['created_at', 'updated_at'], 'date'],
         ];
     }
