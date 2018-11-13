@@ -55,15 +55,22 @@ $this->title = "Eden Woolf - $blog->title";
 
 </div>
 
-<div class="recent-blogs row">
-	<?php
-		$recentBlogs = $blog->getMostRecentBlogs();
-		foreach ($recentBlogs as $id => $recent_blog) {
-			echo $this->render('_recent_blog_item.php', [
-				'recent_blog' => $recent_blog
-			]);
-		}
-	?>
+<div class="recent-blogs-sec">
+	<div class="recent-blogs-header">
+		<label style="position: absolute;margin-top: -10px;font-size: 1.2em;">Recent Blogs</label>
+		<hr style="margin-left: 120px"; />
+	</div>
+	<div class="recent-blogs row">
+		
+		<?php
+			$recentBlogs = $blog->getMostRecentBlogs();
+			foreach ($recentBlogs as $id => $recent_blog) {
+				echo $this->render('_recent_blog_item.php', [
+					'recent_blog' => $recent_blog
+				]);
+			}
+		?>
+	</div>
 </div>
 
 <div class="comments-sec">

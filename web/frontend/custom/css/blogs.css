@@ -329,6 +329,7 @@
 
 .detail-view-sec {
     padding-top: 20vh;
+    margin-bottom: 50px;
 }
 
 .detail-view-sec .to-the-list {
@@ -374,9 +375,11 @@
 
 .detail-view-sec .body {
     margin-top: 30px;
+    margin-bottom: 80px;
     font-size: 1.6em;
     color: black;
     font-family: "raleway";
+
 }
 
 /* Text alignment in the blog body */
@@ -464,7 +467,8 @@
 
 /**************** Recent Blog ***************/
 .detail-view-sec .recent-blogs {
-
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .detail-view-sec .recent-blogs .recent-blog-item {
@@ -472,15 +476,38 @@
 }
 
 .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-img {
-    height: 30%;
-
+    position: relative;
+    height: 190px;
+    text-align: center;
+    overflow: hidden;
 }
 
 .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-img img{
-    height: 100%;
+    width: 100%;
 }
 
-.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-title {
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body {
+    padding-top: 15px;
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-title-div {
+    height: 8vh;
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-title-div .recent-blog-title {
+    font-weight: bold;
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-title-div .recent-blog-title:hover {
+    color: red;
+
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-subheading-div {
+
+}
+
+.detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-subheading-div .recent-blog-subheading {
 
 }
 
