@@ -199,7 +199,7 @@
 
 .blog-container .blog-item {
     position: relative;
-    height: 578px;
+    height: 610px;
     overflow: hidden;
     margin-bottom: 40px;
 }
@@ -230,15 +230,16 @@
 
 }
 .blog-container .blog-item .blog-title-div {
-  height: 100px;
+  height: 110px;
 }
 
 .blog-container .blog-item .blog-title-div .blog-title {
     font-family: raleway;
     font-weight: bold;
-    font-size: 2.3em;
+    font-size: 2.1em;
     color: black;
     line-height: 1em;
+    text-align: justify;
 }
 
 .blog-container .blog-item .blog-title-div .blog-title:hover {
@@ -246,7 +247,7 @@
 }
 
 .blog-container .blog-item .blog-subheading-div {
-      height: 59px;
+      height: 70px;
 }
 
 .blog-container .blog-item .blog-subheading-div .blog-subheading {
@@ -500,7 +501,7 @@
 }
 
 .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-title-div {
-    height: 8vh;
+    height: 110px;
 }
 
 .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-title-div .recent-blog-title {
@@ -552,9 +553,14 @@
     width: 20%;
 }
 
+.comments-sec .comment-div .user-avatar .user-avatar-img {
+    width: 100%;
+}
+
+
 .comments-sec .comment-div .comment-body {
     color: black;
-    margin-left: 30%;
+    margin-left: 22%;
     position: relative;
 }
 
@@ -567,6 +573,7 @@
 }
 .comments-sec .comment-div .comment-body .comment-text {
     padding-top: 0;
+    min-height: 30px;
 }
 
             
@@ -708,7 +715,7 @@
 /* Responsive Design */
 @media (max-width: 1660px) {
   .blog-container .blog-item {
-    height: 600px;
+    height: 620px;
   }
 }
 
@@ -728,18 +735,19 @@
   .blog-container {
     width: 60vw;
   }
+
   .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-img {
     height: 120px;
   }
 
   .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-body .recent-blog-title-div {
-    height: 11vh;
+    height: auto;
   }
 }
 
 @media (max-width: 850px) {
   .blog-container {
-    width: 65vw;
+    width: 85vw;
   }
   /* Category Responsive Style */
   .blogs-sec .category-collapse-button {

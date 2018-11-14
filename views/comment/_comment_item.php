@@ -6,7 +6,7 @@
 
 <div class="container comment-div ">
 	<div class="user-avatar">
-		<img src="<?= $this->context->getUserProfileImage($user_id) ?>" class="media-object">
+		<img src="<?= $this->context->getUserProfileImage($user_id) ?>" class="media-object user-avatar-img">
 	</div>
 	<div class="comment-body">
 		<p class="comment-user-date">
