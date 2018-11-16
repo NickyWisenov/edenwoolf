@@ -73,6 +73,8 @@ $this->title = "Eden Woolf - $blog->title";
 	</div>
 </div>
 
+
+
 <div class="comments-sec">
 	<div class="comments-sec-header">
 		<span><?= count($comments); ?></span> comments

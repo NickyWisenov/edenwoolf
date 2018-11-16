@@ -17,6 +17,9 @@ $config = [
         'admin' => [
             'class' => 'app\modules\admin\AdminModule',
         ],
+        'comment' => [
+            'class' => 'yii2mod\comments\Module',
+        ],
         'gridview' => [
             'class' => '\kartik\grid\Module'
         ],
