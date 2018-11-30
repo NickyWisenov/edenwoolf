@@ -209,7 +209,7 @@
 	font-family: "raleway";
 	font-size: 1.1em;
 	font-weight: bold;
-	color: black;
+	color: red;
 }
 
 .blog-container .blog-item .blog-img {
@@ -839,15 +839,23 @@
   }
   
   .blog-container .blog-item {
-    height: 640px;
+    height: auto;
+  }
+
+  .blog-container .blog-item .blog-title-div {
+    height: auto;
   }
 
   .blog-container .blog-item .blog-title-div .blog-title {
-      font-size: 2em;
-      line-height: 1em;
+    font-size: 2em;
+    line-height: 1em;
+  }
+  
+  .blog-container .blog-item .blog-subheading-div {
+    height: auto;
   }
 
-  .blog-footer {
+  .blog-container .blog-item .blog-footer {
     text-align: center;
   }
   
