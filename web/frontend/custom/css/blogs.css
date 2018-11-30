@@ -209,7 +209,7 @@
 	font-family: "raleway";
 	font-size: 1.1em;
 	font-weight: bold;
-	color: black;
+	color: red;
 }
 
 .blog-container .blog-item .blog-img {
@@ -736,6 +736,18 @@
     width: 60vw;
   }
 
+  .blog-container .blog-item {
+    height: auto;
+  }
+
+  .blog-container .blog-item .blog-title-div {
+    height: auto;
+  }
+
+  .blog-container .blog-item .blog-subheading-div {
+    height: auto;
+  }
+
   .detail-view-sec .recent-blogs .recent-blog-item .recent-blog-img {
     height: 120px;
   }
@@ -747,7 +759,7 @@
 
 @media (max-width: 850px) {
   .blog-container {
-    width: 85vw;
+    width: 60vw;
   }
   /* Category Responsive Style */
   .blogs-sec .category-collapse-button {
@@ -827,6 +839,9 @@
        width: 85vw;
     }
 
+    .comments-sec .comment-div .comment-body .reply-btn {
+      margin-right: 61px;
+    }
 }
 
 @media (max-width: 411px) {
@@ -839,15 +854,23 @@
   }
   
   .blog-container .blog-item {
-    height: 640px;
+    height: auto;
+  }
+
+  .blog-container .blog-item .blog-title-div {
+    height: auto;
   }
 
   .blog-container .blog-item .blog-title-div .blog-title {
-      font-size: 2em;
-      line-height: 1em;
+    font-size: 2em;
+    line-height: 1em;
+  }
+  
+  .blog-container .blog-item .blog-subheading-div {
+    height: auto;
   }
 
-  .blog-footer {
+  .blog-container .blog-item .blog-footer {
     text-align: center;
   }
   
