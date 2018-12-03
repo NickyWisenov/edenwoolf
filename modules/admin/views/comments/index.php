@@ -91,7 +91,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'contentOptions' => ['class' => 'toggle-allow', 'style' => 'text-align:left;padding-left: 20px;'],
 
             ],
-            'likes',
+            // 'likes',
             [
                 'class' => '\kartik\grid\ActionColumn',
                 'header' => 'Actions',

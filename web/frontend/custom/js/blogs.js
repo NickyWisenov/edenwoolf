@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+	// Blog Categories Collapse function
 	$(".category-collapse-button").on('click', function () {
 		
 		if (!$(this).hasClass('open')) {
@@ -27,15 +27,13 @@ $(document).ready(function () {
 			})
 		}
 	});
-	// Share function 
+	// Share blogs in the blogs index page
 	$(".blog-container").on('click', '.fb>i',function () {
 		window.open('https://www.facebook.com/sharer/sharer.php?u=localeden.com/blogs/' + $(this).parents().closest(".share-buttons").attr('data-blogId'), 
 	        'facebook-share-dialog', 
 	        'width=626,height=436'); 
 	  	return false;
 	});
-
-
 
 	$(".blog-container").on('click', '.in>i', function () {
 		window.open('https://www.linkedin.com/shareArticle?mini=true&url=localeden.com/blogs/' + $(this).parents().closest(".share-buttons").attr('data-blogId'),
@@ -44,21 +42,23 @@ $(document).ready(function () {
 		return false;
 	});
 
-	$(".blog-container").on('click', '.tw>img', function () {
+	$(".blog-container").on('click', '.tw>i', function () {
 		window.open('http://twitter.com/share?text=Share on this&url=localeden.com/blogs/' + $(this).parents().closest(".share-buttons").attr('data-blogId') + '&hashtags=edenwolf,share',
 			'twitter-share-dialog',
 			'width=626, height=436');
 		return false;
 	});
 
-	$(".detail-view-sec").on('click', '.fb>i',function () {
+
+	// Share blogs in the detail view
+	$(".detail-view-sec").on('click', '.fb>img',function () {
 		window.open('https://www.facebook.com/sharer/sharer.php?u=localeden.com/blogs/' + $(this).parents().closest(".share-buttons").attr('data-blogId'), 
 	        'facebook-share-dialog', 
 	        'width=626,height=436'); 
     	return false;
 	});
 
-	$(".detail-view-sec").on('click', '.in>i', function () {
+	$(".detail-view-sec").on('click', '.in>img', function () {
 		window.open('https://www.linkedin.com/shareArticle?mini=true&url=localeden.com/blogs/' + $(this).parents().closest(".share-buttons").attr('data-blogId'),
 			'linkedin-share-dialog',
 			'width=626, height=436');
@@ -71,15 +71,14 @@ $(document).ready(function () {
 			'width=626, height=436');
 		return false;
 	});
-      
+     
+
     $.ajax({
     	url: 'https://graph.facebook.com/?ids=http://localeden.com/blogs/54',
     	success: function (data) {
     		console.log(data);
     	}
     });
-
-
 
 	$(".report-btn").on('click', function () {
 		$.ajax({

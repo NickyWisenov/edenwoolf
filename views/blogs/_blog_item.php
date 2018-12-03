@@ -8,6 +8,7 @@
 	<div class="blog-img">
 		<img src="<?= $blog->image ?>">
 	</div>
+	<p class="blog-categoryName"><?= $blog->category->category_name ?></p>
 	<div class="blog-title-div">
 		<a class="blog-title" href=<?php echo Url::to(['view', 'id' => $blog->id]); ?>>
 			<?= $blog->title ?>
@@ -20,9 +21,7 @@
 		</h2>
 	</div>
 
-	<div class="blog-body">
-		<?= BaseStringHelper::truncate($blog->body, 100, ' ... ', null, true); ?>
-	</div>
+
 	<div class="blog-footer">
 		<span class="blog-created-at">
 			<?php

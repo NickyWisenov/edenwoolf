@@ -30,7 +30,7 @@ class Blog extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'title'], 'required'],
+            [['user_id', 'title', 'category_id', 'subheading', 'body', 'image'], 'required', 'message' =>  '{attribute} is required'],
             [['user_id', 'category_id'], 'integer'],
             [['body'], 'string'],
             [['title', 'subheading', 'image'], 'string', 'max' => 100],
@@ -50,7 +50,7 @@ class Blog extends \yii\db\ActiveRecord
             'subheading' => 'Subheading',
             'body' => 'Body',
             'image' => 'Image',
-            'category_id' => 'Category ID',
+            'category_id' => 'Category',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
         ];
@@ -110,7 +110,7 @@ class Blog extends \yii\db\ActiveRecord
      **/
     public function getComments()
     {
-      return $this->hasMany(Comment::className(), ['blog_id' => 'id']);
+      return $this->hasMany(Comment::className(), ['blog_id' => 'id'])->orderBy(['comment.created_at'=>SORT_DESC]);;
     }
 
     /**

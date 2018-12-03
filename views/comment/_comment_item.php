@@ -25,9 +25,7 @@
 			</a>
 			<span><?= $comment->likes == 0 ? '0' : $comment->likes ?> likes</span>
 			<a href="javascript:;" class="reply-btn" data-id="<?= $comment->id ?>">Reply</a>
-			<a href="javascript:;" class="report-btn" data-id="<?= $comment->id ?>">
-				Report
-			</a>
+			<a href="javascript:;" class="report-btn" data-id="<?= $comment->id ?>">Report</a>
 		</div>
 	</div>
 </div>
