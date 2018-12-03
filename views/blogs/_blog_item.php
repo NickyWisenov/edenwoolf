@@ -8,7 +8,6 @@
 	<div class="blog-img">
 		<img src="<?= $blog->image ?>">
 	</div>
-	<p class="blog-categoryName"><?= $blog->category->category_name ?></p>
 	<div class="blog-title-div">
 		<a class="blog-title" href=<?php echo Url::to(['view', 'id' => $blog->id]); ?>>
 			<?= $blog->title ?>
