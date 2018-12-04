@@ -6,7 +6,7 @@
 <!-- Blog Item Partial Start -->
 <div class="blog-item col-lg-4 col-md-6 col-xs-12">
 	<div class="blog-img">
-		<img src="<?= $blog->image ?>">
+		<img src="<?= str_replace('original', 'preview',$blog->image) ?>">
 	</div>
 	<p class="blog-categoryName"><?= $blog->category->category_name ?></p>
 	<div class="blog-title-div">
@@ -26,7 +26,7 @@
 		<span class="blog-created-at">
 			<?php
 				Yii::$app->formatter->locale = 'en-US';
-				echo Yii::$app->formatter->asDate($blog->created_at);
+				echo Yii::$app->formatter->asDate(substr($blog->created_at, 0, 10));
 			?>
 		</span>
 		<span class="blog-author">
