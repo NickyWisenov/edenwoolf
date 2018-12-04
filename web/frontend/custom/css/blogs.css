@@ -190,6 +190,7 @@
 .blog-container .blog-item .blog-img {
 	height: 250px;
 	text-align: center;
+    overflow: hidden;
 }
 
 .blog-container .blog-item .blog-img img {
