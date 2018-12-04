@@ -4,6 +4,7 @@ namespace app\modules\admin\controllers;
 
 use Yii;
 use app\models\Blog;
+use app\models\Comment;
 use app\models\BlogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -99,13 +100,27 @@ class BlogsController extends AdminController
     public function actionDelete($id)
     {
         // Delete Uploaded Images
+<<<<<<< HEAD
         // unlink(Yii::$app->basePath . '/web' . $this->findModel($id)->image);
         // unlink(Yii::$app->basePath . '/web' . str_replace('original', 'preview', $this->findModel($id)->image));
         // unlink(Yii::$app->basePath . '/web' . str_replace('original', 'thumb', $this->findModel($id)->image));
+=======
+>>>>>>> 5a39892750a659c8b691b6b73e4993c21c4689bf
 
-        $this->findModel($id)->delete();
+        $original_img_path = $this->findModel($id)->image;
 
+        try {
+            Comment::deleteAll('blog_id = :blog_id', [':blog_id' => $id]);
+            $this->findModel($id)->delete();
+        }
+        catch (exception $err) {
+            return $this->redirect(['index']);
+        }
 
+        unlink(Yii::$app->basePath . '/web' . $original_img_path);
+        unlink(Yii::$app->basePath . '/web' . str_replace('original', 'preview', $original_img_path));
+        unlink(Yii::$app->basePath . '/web' . str_replace('original', 'thumb', $original_img_path));
+        
         return $this->redirect(['index']);
     }
 
