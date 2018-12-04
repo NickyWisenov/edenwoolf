@@ -43,6 +43,9 @@ class BlogsController extends FrontController {
         ];
     }
 
+    /**
+     * Index Function
+     **/
     public function actionIndex() {
         
     	$query = Blog::find()->indexBy('id')->orderBy(['created_at' => SORT_DESC]);
@@ -107,15 +110,20 @@ class BlogsController extends FrontController {
     }
 
     public function actionView($id) {
-        $blog = Blog::findOne($id);
-        $comments = $blog->comments;
-        $new_comment = new Comment();
 
-        return $this->render("view", [
-            'blog' => $blog,
-            'comments' => $comments,
-            'new_comment' => $new_comment,
-        ]);
+        $blog = Blog::findOne($id);
+        if ($blog) {
+            $comments = $blog->comments;
+            $new_comment = new Comment();
+
+            return $this->render("view", [
+                'blog' => $blog,
+                'comments' => $comments,
+                'new_comment' => $new_comment,
+            ]);
+        }
+        return $this->redirect(['blogs/index']);
+        
     }
 
     /**
