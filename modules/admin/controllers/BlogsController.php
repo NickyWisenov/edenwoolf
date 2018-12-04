@@ -99,13 +99,14 @@ class BlogsController extends AdminController
     public function actionDelete($id)
     {
         // Delete Uploaded Images
-        // unlink(Yii::$app->basePath . '/web' . $this->findModel($id)->image);
-        // unlink(Yii::$app->basePath . '/web' . str_replace('original', 'preview', $this->findModel($id)->image));
-        // unlink(Yii::$app->basePath . '/web' . str_replace('original', 'thumb', $this->findModel($id)->image));
-
+        $original_img_path = $this->findModel($id)->image;
+        
         $this->findModel($id)->delete();
 
-
+        unlink(Yii::$app->basePath . '/web' . $original_img_path);
+        unlink(Yii::$app->basePath . '/web' . str_replace('original', 'preview', $original_img_path));
+        unlink(Yii::$app->basePath . '/web' . str_replace('original', 'thumb', $original_img_path));    
+        
         return $this->redirect(['index']);
     }
 
