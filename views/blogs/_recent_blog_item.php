@@ -4,7 +4,7 @@
 
 <div class="recent-blog-item col-lg-4 col-sm-4 col-xs-12">
 	<div class="recent-blog-img">
-		<img src="<?= $recent_blog->image ?>">
+		<img src="<?= str_replace('original', 'preview', $recent_blog->image) ?>">
 	</div>
 	<div class="recent-blog-body">
 		<div class="recent-blog-title-div">

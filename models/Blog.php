@@ -104,7 +104,6 @@ class Blog extends \yii\db\ActiveRecord
         return $this->hasOne(Category::className(), ['id' => 'category_id']);
 
     }
-
     /**
      * Get Comments
      **/
@@ -124,5 +123,6 @@ class Blog extends \yii\db\ActiveRecord
       
       return $this->hasMany(Comment::className(), ['blog_id' => 'id']);
     }
+
 
 }
