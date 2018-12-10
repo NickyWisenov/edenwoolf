@@ -65,7 +65,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'options' => ['width' => '100'],
                 'filter'=> '',
                 'value' => function($data){
-                    $imageurl = Yii::$app->urlManager->createUrl('./../../') . '/' .$data->image;
+                    $imageurl = Yii::$app->urlManager->createUrl('./../../') . '/' .str_replace('original', 'thumb', $data->image);
                     return Html::img($imageurl, ['width' => '200px']);
                 },
             ],
