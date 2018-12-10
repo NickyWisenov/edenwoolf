@@ -175,7 +175,7 @@
 
 .blog-container .blog-item {
     position: relative;
-    height: 530px;
+    height: 540px;
     overflow: hidden;
     margin-bottom: 40px;
 }
@@ -225,7 +225,7 @@
 
 .blog-container .blog-item .blog-subheading-div {
     margin-top: 10px;
-    height: 70px;
+    height: 80px;
 }
 
 .blog-container .blog-item .blog-subheading-div .blog-subheading {
