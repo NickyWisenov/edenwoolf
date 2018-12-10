@@ -65,13 +65,10 @@ class Blog extends \yii\db\ActiveRecord
       if (parent::beforeSave($insert)) {
 
         if($insert) {
-          $this->created_at = date('Y-m-d h:i:sa');
-          $this->updated_at = date('Y-m-d h:i:sa');
-
+          $this->created_at = date('Y-m-d h:i:s');
+          $this->updated_at = date('Y-m-d h:i:s');
         } else {
-          
-          $this->created_at = date('Y-m-d h:i:sa');
-          $this->updated_at = date('Y-m-d h:i:sa');
+          $this->updated_at = date('Y-m-d h:i:s');
         }
         return true;
       } else {
