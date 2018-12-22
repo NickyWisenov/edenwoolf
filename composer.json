@@ -25,8 +25,7 @@
         "yiisoft/yii2-jui": "^2.0",
         "imanilchaudhari/yii2-social-share": "dev-master",
         "yiimaker/yii2-social-share": "^2.3",
-        "yii2mod/yii2-comments": "*",
-        "cyneek/yii2-comments": "*"
+        "yii2mod/yii2-comments": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

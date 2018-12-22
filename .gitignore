@@ -7,6 +7,7 @@ Thumbs.db
 
 # composer vendor dir
 <<<<<<< HEAD
+<<<<<<< HEAD
 !vendor/
 vendor/*
 !vendor/cyneek/
@@ -14,6 +15,12 @@ vendor/*
 /vendor
 /web/uploads
 >>>>>>> parent of 98279b7... ignore file
+=======
+vendor/*
+!vendor/cyneek/*
+
+/web/uploads
+>>>>>>> parent of dc829fb... Distortion
 # composer itself is not needed
 composer.phar
 composer.lock

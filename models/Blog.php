@@ -33,7 +33,7 @@ class Blog extends \yii\db\ActiveRecord
             [['user_id', 'title', 'category_id', 'subheading', 'image'], 'required', 'message' =>  '{attribute} is required'],
             [['user_id', 'category_id'], 'integer'],
             [['body'], 'string'],
-            [['title', 'subheading', 'image'], 'string', 'max' => 65],
+            [['title', 'subheading', 'image'], 'string', 'max' => 100],
             [['created_at', 'updated_at'], 'datetime'],
         ];
     }
@@ -115,8 +115,11 @@ class Blog extends \yii\db\ActiveRecord
     public function getMostRecentBlogs()
     {
 
-      $blogs = $this->find()->where(['!=', 'id', $this->id])->orderBy(['created_at' => SORT_DESC])->limit(3)->all();
-
+      $blogs = $this->find()->orderBy(['created_at' => SORT_DESC])->limit(3)->all();
       return $blogs;
+      
+      return $this->hasMany(Comment::className(), ['blog_id' => 'id']);
     }
+
+
 }

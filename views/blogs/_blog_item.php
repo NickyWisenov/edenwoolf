@@ -14,11 +14,14 @@
 			<?= $blog->title ?>
 		</a>
 	</div>
+	
 	<div class="blog-subheading-div">
 		<h2 class="blog-subheading">
 			<?= $blog->subheading ?>
 		</h2>
 	</div>
+
+
 	<div class="blog-footer">
 		<span class="blog-created-at">
 			<?php
