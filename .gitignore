@@ -6,9 +6,14 @@ _DOC
 Thumbs.db
 
 # composer vendor dir
+<<<<<<< HEAD
 !vendor/
 vendor/*
 !vendor/cyneek/
+=======
+/vendor
+/web/uploads
+>>>>>>> parent of 98279b7... ignore file
 # composer itself is not needed
 composer.phar
 composer.lock

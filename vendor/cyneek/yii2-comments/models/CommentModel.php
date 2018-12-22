@@ -5,7 +5,6 @@ namespace cyneek\comments\models;
 use yii2mod\behaviors\PurifyBehavior;
 use cyneek\comments\models\enums\CommentStatus;
 use cyneek\comments\Module;
-use cyneek\comments\models\CommentPermission;
 use Yii;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\TimestampBehavior;
@@ -104,7 +103,7 @@ class CommentModel extends ActiveRecord
     {
         if ($this->{$attribute} !== NULL)
         {
-            $comment = self::find()->where(['id' => $this->{$attribute}, 'entity' => $this->entity, 'entityId' => $this->entityId])->ve()->exists();
+            $comment = self::find()->where(['id' => $this->{$attribute}, 'entity' => $this->entity, 'entityId' => $this->entityId])->active()->exists();
             if ($comment === FALSE)
             {
                 $this->addError('content', Yii::t('app', 'Oops, something went wrong. Please try again later.'));
@@ -198,9 +197,8 @@ class CommentModel extends ActiveRecord
         /* @var $module Module */
         $module = Yii::$app->getModule(Module::$name);
 
-
         return $module->useRbac === TRUE
-            ? !\Yii::$app->user->isGuest
+            ? \Yii::$app->getUser()->can(CommentPermission::CREATE)
             : TRUE;
     }
 
@@ -318,29 +316,6 @@ class CommentModel extends ActiveRecord
     }
 
     /**
-     * Like comment.
-     *
-     * @return boolean Whether comment was deleted or not
-     */
-    public function likeComment()
-    {
-        $this->likes += 1;
-
-        return $this->save(FALSE, ['likes', 'updatedBy', 'updatedAt']);
-    }
-
-    /**
-     * Report comment.
-     *
-     * @return boolean Whether comment was deleted or not
-     */
-    public function reportComment()
-    {
-        $this->status = CommentStatus::REPORTED;
-
-        return $this->save(FALSE, ['status', 'updatedBy', 'updatedAt']);
-    }
-    /**
      * $_children getter.
      *
      * @return null|array|ActiveRecord[] Comment children
@@ -408,7 +383,7 @@ class CommentModel extends ActiveRecord
             return $this->anonymousUsername;
         }
 
-        return $this->author->display_name;
+        return $this->author->username;
     }
 
     /**
@@ -437,21 +412,10 @@ class CommentModel extends ActiveRecord
 
         if (is_null($this->createdBy))
         {
-            return Html::img(Yii::$app->request->baseUrl . '/frontend/images/prof_big_img_1.png', $imgOptions);
+            return Html::img("http://gravatar.com/avatar/1/?s=50", $imgOptions);
         }
 
-        if ($this->author->image != '') {
-            if (file_exists(Yii::$app->basePath . '/web/uploads/frontend/carer_picture/original/' . $this->author->image)) {
-                    return Html::img(Yii::$app->getUrlManager()->getBaseUrl() . '/uploads/frontend/carer_picture/original/' . $this->author->image, $imgOptions);
-                    return ;
-                } else {
-                    return Html::img(Yii::$app->request->baseUrl . '/frontend/images/prof_big_img_1.png', $imgOptions);
-                }
-            } else {
-                return Html::img(Yii::$app->request->baseUrl . '/frontend/images/prof_big_img_1.png', $imgOptions);
-        }
-
-        return Html::img(Yii::$app->request->baseUrl . '/frontend/images/prof_big_img_1.png', $imgOptions);
+        return Html::img("http://gravatar.com/avatar/{$this->author->id}/?s=50", $imgOptions);
     }
 
     /**

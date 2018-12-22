@@ -21,12 +21,12 @@ class ManageController extends Controller
     /**
      * @var string path to index view file, which is used in admin panel
      */
-    public $indexView = '@vendor/cyneek/yii2-comments/views/manage/index';
+    public $indexView = '@vendor/yii2mod/yii2-comments/views/manage/index';
 
     /**
      * @var string path to update view file, which is used in admin panel
      */
-    public $updateView = '@vendor/cyneek/yii2-comments/views/manage/update';
+    public $updateView = '@vendor/yii2mod/yii2-comments/views/manage/update';
 
     /**
      * Behaviors

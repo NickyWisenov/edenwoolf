@@ -8,7 +8,7 @@
     <div class="col-md-11 col-sm-11">
         <div class="title-block clearfix">
             <h3 class="h3-body-title"><?php echo  Yii::t('app','Comments'); ?></h3>
-            
+
             <div class="title-seperator"></div>
         </div>
         <?php

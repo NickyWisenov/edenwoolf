@@ -125,34 +125,6 @@
         });
     });
 
-    /**
-     * Delete comment event
-     */
-
-    $(document).on('click', '[data-action="like"]', function (event) {
-        event.preventDefault();
-        var data = $.data(document, 'comment');
-        var $this = $(this);
-        $.ajax({
-            url: $this.data('url'),
-            type: 'PUT',
-            error: function (xhr, status, error) {
-                alert(error);
-            },
-            success: function (result, status, xhr) {
-                if (data.deleteComment == true)
-                {
-                   $this.parents('[data-comment-content-id="' + $this.data('comment-id') + '"]').remove();
-                }
-                else
-                {
-                    $this.parents('[data-comment-content-id="' + $this.data('comment-id') + '"]').find(data.contentSelector).text(result);
-                    $this.parents(data.toolsSelector).remove();
-                }
-            }
-        });
-    });
-
 
 
 })(window.jQuery);

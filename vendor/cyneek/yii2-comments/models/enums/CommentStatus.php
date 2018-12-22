@@ -12,14 +12,12 @@ class CommentStatus extends BaseEnum
 {
     const ACTIVE = 1;
     const DELETED = 2;
-    const REPORTED = 3;
 
     /**
      * @var array
      */
     public static $list = [
         self::ACTIVE => 'Active',
-        self::DELETED => 'Deleted',
-        self::REPORTED => 'Reported'
+        self::DELETED => 'Deleted'
     ];
 }

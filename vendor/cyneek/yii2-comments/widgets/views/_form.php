@@ -50,7 +50,7 @@ use yii\widgets\ActiveForm;
                 if ($commentModel->getIsNewRecord())
                 {
                     echo Html::a(Yii::t('app', Yii::t('app', 'Click here to cancel reply.')), '#', ['id' => 'cancel-reply', 'class' => 'pull-right', 'data' => ['action' => 'cancel-reply']]);
-                    echo Html::button('<span class="button-txt">'.Yii::t('app', 'Comment').'</span>', ['class' => 'comment-submit', 'type'=>'submit']);
+                    echo Html::submitButton(Yii::t('app', 'Comment'), ['class' => 'btn btn-primary comment-submit']);
                 }
                 else
                 {

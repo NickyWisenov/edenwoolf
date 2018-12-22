@@ -13,6 +13,8 @@ $this->title = Yii::t('app', 'Comments Management');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="comments-index">
+
+
     <h1><?php echo Html::encode($this->title) ?></h1>
     <?php Pjax::begin(['enablePushState' => FALSE, 'timeout' => 5000]); ?>
     <?php echo GridView::widget([
@@ -40,17 +42,11 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             [
                 'attribute' => 'status',
-                'filter' => array("1" => "Active", "2" => "Deleted", "3" => 'Reported'),
+                'filter' => array("1" => "Active", "2" => "Deleted"),
                 'value' => function ($model)
                 {
-                    if ($model->status == 1) {
-                        return 'Active';
-                    } else if ($model->status == 2) {
-                        return 'Deleted';
-                    } else {
-                        return 'Reported';
-                    }
-                },
+                    return ($model->status == 1 ? 'Active' : 'Deleted');
+                }
             ],
             [
                 'attribute' => 'createdAt',
