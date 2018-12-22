@@ -6,7 +6,9 @@ _DOC
 Thumbs.db
 
 # composer vendor dir
-/vendor
+vendor/*
+!vendor/cyneek/*
+
 /web/uploads
 # composer itself is not needed
 composer.phar
