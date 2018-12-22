@@ -16,9 +16,18 @@ $config = [
     'modules' => [
         'admin' => [
             'class' => 'app\modules\admin\AdminModule',
+            'controllerMap' => [
+                'comments' => 'cyneek\comments\controllers\ManageController'
+            ], 
         ],
         'comment' => [
-            'class' => 'yii2mod\comments\Module',
+            'class' => 'cyneek\comments\Module',
+            'userIdentityClass' => 'app\models\UserMaster',
+            'controllerMap' => [
+                'comments' => 'cyneek\comments\controllers\ManageController'
+            ], 
+            'useRbac' => true,
+
         ],
         'gridview' => [
             'class' => '\kartik\grid\Module'

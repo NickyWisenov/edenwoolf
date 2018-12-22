@@ -110,74 +110,13 @@ class BlogsController extends FrontController {
     }
 
     public function actionView($id) {
-
         $blog = Blog::findOne($id);
         if ($blog) {
-            $comments = $blog->comments;
-            $new_comment = new Comment();
-
             return $this->render("view", [
                 'blog' => $blog,
-                'comments' => $comments,
-                'new_comment' => $new_comment,
             ]);
         }
         return $this->redirect(['blogs/index']);
         
-    }
-
-    /**
-     * Leave Comment 
-     **/
-    public function actionComment($id) {
-        $comment = new Comment();
-
-        $comment->blog_id = $id;
-        // $comment->user_id = Yii::$app->user->id;
-        $comment->user_id = 2;
-        $comment->body = Yii::$app->request->post('Comment')['body'];
-        $comment->status = 0;
-
-        if($comment->save()) {
-            return $this->redirect(['blogs/view', 'id' => $id]);
-        }
-
-    }
-
-
-    /**
-     * Report Comment
-     * @param $commentId
-     * @redirect blogs/report
-     **/
-    public function actionReport($commentId) {
-
-        $comment = Comment::findOne($commentId);
-
-        if($comment->reported == 0) {
-            $comment->reported = 1;    
-
-            if ($comment->save()) {
-                return true;
-            }
-        }
-        
-        return false;
-        
-    }
-
-     /**
-     * Like Comment
-     * @param $commentId
-     * @redirect blogs/like
-     **/
-    public function actionLike($commentId) {
-        $comment = Comment::findOne($commentId);
-
-        $comment->likes += 1;
-
-        if($comment->save()) {
-            return true;
-        }
     }
 }

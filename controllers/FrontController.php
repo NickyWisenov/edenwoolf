@@ -99,7 +99,8 @@ class FrontController extends Controller {
         }
 
         $user = UserMaster::findOne($id);
-        if (count($user) > 0) {
+        // if (count($user) > 0) {
+        if (true) {
 //            return $user->first_name . ' ' . $user->last_name;
             return $user->first_name;
         } else {

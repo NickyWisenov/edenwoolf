@@ -6,10 +6,9 @@ _DOC
 Thumbs.db
 
 # composer vendor dir
+!vendor/
 vendor/*
-!vendor/cyneek/*
-
-/web/uploads
+!vendor/cyneek/
 # composer itself is not needed
 composer.phar
 composer.lock
