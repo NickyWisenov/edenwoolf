@@ -135,6 +135,35 @@ class DefaultController extends Controller
     }
 
     /**
+     * Like comment page.
+     *
+     * @param integer $id Comment ID
+     * @return string Comment text
+     */
+    public function actionLike($id)
+    {
+        if ($this->findModel($id)->likeComment()) {
+            return Yii::t('app', $this->findModel($id)->likes);
+        } else {
+            return Yii::$app->response->setStatusCode(500);
+        }
+    }
+
+    /**
+     * Report comment page.
+     *
+     * @param integer $id Comment ID
+     * @return string Comment text
+     */
+    public function actionReport($id)
+    {
+        if ($this->findModel($id)->reportComment()) {
+            return Yii::t('app', $this->findModel($id)->status);
+        } else {
+            return Yii::$app->response->setStatusCode(500);
+        }
+    }
+    /**
      * Find model by ID.
      *
      * @param integer|array $id Comment ID

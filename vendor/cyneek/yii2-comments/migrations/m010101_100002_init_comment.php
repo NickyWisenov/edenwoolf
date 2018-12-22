@@ -29,6 +29,7 @@ class m010101_100002_init_comment extends Migration
             'createdBy' => Schema::TYPE_INTEGER,
             'updatedBy' => Schema::TYPE_INTEGER,
             'status' => 'TINYINT(2) NOT NULL DEFAULT 1',
+            'likes' => Schema::TYPE_INTEGER,
             'createdAt' => Schema::TYPE_INTEGER . ' NOT NULL',
             'updatedAt' => Schema::TYPE_INTEGER . ' NOT NULL',
         ], $tableOptions);
