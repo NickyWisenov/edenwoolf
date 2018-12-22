@@ -11,13 +11,19 @@ use yii\helpers\Html;
             <?php echo $model->getAvatar(['alt' => $model->getAuthorName()]); ?>
         </div>
         <div class="comment-details">
-            <?php if ($model->isActive): ?>
+            <?php if ($model->isActive && !Yii::$app->user->isGuest): ?>
                 <div class="comment-action-buttons">
-                    <?php if ($model->canDelete()): ?>
-                        <?php echo Html::a('<span class="glyphicon glyphicon-trash"></span> ' . Yii::t('app', 'Delete'), '#', ['data' => ['action' => 'delete', 'url' => \yii\helpers\Url::to(['/comment/default/delete', 'id' => $model->id]), 'comment-id' => $model->id]]); ?>
+                    <span class="likes-num">
+                        <?php echo $model->likes == NULL ? "": $model->likes." likes" ?>
+                    </span>
+                    <?php if ($model->createdBy != Yii::$app->getUser()->id): ?>
+                        <?php echo Html::a('<span class="glyphicon glyphicon-thumbs-up"></span> ' . Yii::t('app', 'Like'), '#', ['data' => ['action' => 'like', 'url' => \yii\helpers\Url::to(['/comment/default/like', 'id' => $model->id]), 'comment-id' => $model->id]]); ?>
                     <?php endif; ?>
-                    <?php if ($model->canCreate() && (($model->level < $widget->maxLevel || is_null($widget->maxLevel)) || $widget->nestedBehavior == FALSE)): ?>
+                    <?php if (($model->canCreate() && ($model->createdBy != Yii::$app->getUser()->id)) && (($model->level < $widget->maxLevel || is_null($widget->maxLevel)) || $widget->nestedBehavior == FALSE)): ?>
                         <?php echo Html::a('<span class="glyphicon glyphicon-share-alt"></span> ' . Yii::t('app', 'Reply'), '#', ['class' => 'comment-reply', 'data' => ['action' => 'reply', 'comment-id' => $model->id]]); ?>
+                    <?php endif; ?>
+                    <?php if ($model->createdBy != Yii::$app->getUser()->id): ?>
+                        <?php echo Html::a('<span class="glyphicon glyphicon-ban-circle"></span> ' . Yii::t('app', 'Report'), '#', ['data' => ['action' => 'report', 'url' => \yii\helpers\Url::to(['/comment/default/report', 'id' => $model->id]), 'comment-id' => $model->id]]); ?>
                     <?php endif; ?>
                     <?php if ($model->canUpdate()): ?>
                         <?php echo Html::a('<span class="glyphicon glyphicon-pencil"></span> ' . Yii::t('app', 'Edit'), '#', ['class' => 'comment-edit', 'data' => ['action' => 'edit', 'comment-id' => $model->id]]); ?>
